@@ -50,7 +50,7 @@ print("\n\nTAREFA 1: Imprimindo as primeiras 20 amostras")
 # DONE TAREFA 1.1: Por For Loop
 divider()
 for index in range(0,20):
-    pprint(data_list[index])
+    print(data_list[index])
 divider()
 
 # Vamos mudar o data_list para remover o cabeçalho dele.
@@ -81,15 +81,14 @@ divider()
 input("Aperte Enter para continuar...")
 # TAREFA 3
 # TODO: Crie uma função para adicionar as colunas(features) de uma lista em outra lista, na mesma ordem
-def column_to_list(data, index):
-    column_list = []
-    # Dica: Você pode usar um for para iterar sobre as amostras, pegar a feature pelo seu índice, e dar append para uma lista
-    return column_list
-
+def column_to_list(dataset, index):
+    return [data[index] for data in dataset]
 
 # Vamos checar com os gêneros se isso está funcionando (apenas para os primeiros 20)
 print("\nTAREFA 3: Imprimindo a lista de gêneros das primeiras 20 amostras")
+divider()
 print(column_to_list(data_list, -2)[:20])
+divider()
 
 # ------------ NÃO MUDE NENHUM CÓDIGO AQUI ------------
 assert type(column_to_list(data_list, -2)) is list, "TAREFA 3: Tipo incorreto retornado. Deveria ser uma lista."
@@ -100,7 +99,7 @@ assert column_to_list(data_list, -2)[0] == "" and column_to_list(data_list, -2)[
 input("Aperte Enter para continuar...")
 # Agora sabemos como acessar as features, vamos contar quantos Male (Masculinos) e Female (Femininos) o dataset tem
 # TAREFA 4
-# TODO: Conte cada gênero. Você não deveria usar uma função parTODO isso.
+# TODO: Conte cada gênero. Você não deveria usar uma função para isso.
 male = 0
 female = 0
 
