@@ -18,15 +18,17 @@ from pprint import pprint
 # print(len(dataset_list))
 # print(dataset_list[0])
 
-# Imprime divisão para separar pergunta e resposta
-def divider(): return print('='*50)
-
 # Vamos ler os dados como uma lista
 print("Lendo o documento...")
 with open("./dataset/chicago.csv", "r") as file_read:
     reader = csv.reader(file_read)
     data_list = list(reader)
 print("Ok!")
+
+# Apoio
+def divider(): return print('='*50) # Imprime divisão para separar pergunta e resposta
+data_list_header = data_list[0]
+find_column_index_of = lambda column_name: data_list_header.index(column_name)
 
 # Vamos verificar quantas linhas nós temos
 print("Número de linhas:")
@@ -36,7 +38,6 @@ print(len(data_list))
 print("Linha 0: ")
 print(data_list[0])
 # É o cabeçalho dos dados, para que possamos identificar as colunas.
-data_list_header = data_list[0]
 
 # Imprimindo a segunda linha de data_list, ela deveria conter alguns dados
 print("Linha 1: ")
@@ -67,7 +68,6 @@ input("Aperte Enter para continuar...")
 # TODO: Imprima o `gênero` das primeiras 20 linhas
 
 print("\nTAREFA 2: Imprimindo o gênero das primeiras 20 amostras")
-find_column_index_of = lambda column_name: data_list_header.index(column_name)
 gender_index = find_column_index_of('Gender')
 sample_gender_first_20 = [line[gender_index] for line in sample_first_20]
 
@@ -100,20 +100,23 @@ input("Aperte Enter para continuar...")
 # Agora sabemos como acessar as features, vamos contar quantos Male (Masculinos) e Female (Femininos) o dataset tem
 # TAREFA 4
 # TODO: Conte cada gênero. Você não deveria usar uma função para isso.
-male = 0
-female = 0
-
+gender_index = find_column_index_of('Gender')
+gender = column_to_list(data_list, gender_index)
+male = gender.count('Male')
+female = gender.count('Female')
 
 # Verificando o resultado
 print("\nTAREFA 4: Imprimindo quantos masculinos e femininos nós encontramos")
+divider()
 print("Masculinos: ", male, "\nFemininos: ", female)
+divider()
 
 # ------------ NÃO MUDE NENHUM CÓDIGO AQUI ------------
 assert male == 935854 and female == 298784, "TAREFA 4: A conta não bate."
 # -----------------------------------------------------
 
 input("Aperte Enter para continuar...")
-# Por que nós não criamos uma função parTODO isso?
+# Por que nós não criamos uma função para isso?
 # TAREFA 5
 # TODO: Crie uma função para contar os gêneros. Retorne uma lista.
 # Isso deveria retornar uma lista com [count_male, count_female] (exemplo: [10, 15] significa 10 Masculinos, 15 Femininos)
