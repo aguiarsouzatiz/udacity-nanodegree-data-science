@@ -1,0 +1,43 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "caf20153de828560ab0c8e2435facc504be3e36ed0a94b0db52068107e3c0f2f"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.6"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "colorful": {
+            "hashes": [
+                "sha256:443c8aa36d889a81f6fb902099294ed9f2da4996bdc4ba02f1f5c73596c0ac9f",
+                "sha256:4b27c3eafdd02c9e619bd5fc417604ba8d549aa7f7dd366e41a7e8cdc075e293"
+            ],
+            "version": "==0.4.1"
+        },
+        "prettyprinter": {
+            "hashes": [
+                "sha256:20885ff0b903e5cd0e4d81f46f69b74b84f1aaeb53e5d90de556a6f062278452",
+                "sha256:31f4f04014138212be6520f89f2659785f01a40f133a65e8c74982526838b8bb"
+            ],
+            "index": "pypi",
+            "version": "==0.13.2"
+        },
+        "pygments": {
+            "hashes": [
+                "sha256:78f3f434bcc5d6ee09020f92ba487f95ba50f1e3ef83ae96b9d5ffa1bab25c5d",
+                "sha256:dbae1046def0efb574852fab9e90209b23f556367b5a320c0bcb871c77c3e8cc"
+            ],
+            "version": "==2.2.0"
+        }
+    },
+    "develop": {}
+}
