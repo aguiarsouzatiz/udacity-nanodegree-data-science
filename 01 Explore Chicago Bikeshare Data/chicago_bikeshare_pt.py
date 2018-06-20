@@ -121,14 +121,17 @@ input("Aperte Enter para continuar...")
 # TODO: Crie uma função para contar os gêneros. Retorne uma lista.
 # Isso deveria retornar uma lista com [count_male, count_female] (exemplo: [10, 15] significa 10 Masculinos, 15 Femininos)
 def count_gender(data_list):
-    male = 0
-    female = 0
-    return [male, female]
+    gender_index = find_column_index_of('Gender')
+    gender = column_to_list(data_list, gender_index)
+
+    return [gender.count('Male'), gender.count('Female')]
 
 
 print("\nTAREFA 5: Imprimindo o resultado de count_gender")
+divider()
+print('[ Male | Female ]')
 print(count_gender(data_list))
-
+divider()
 # ------------ NÃO MUDE NENHUM CÓDIGO AQUI ------------
 assert type(count_gender(data_list)) is list, "TAREFA 5: Tipo incorreto retornado. Deveria retornar uma lista."
 assert len(count_gender(data_list)) == 2, "TAREFA 5: Tamanho incorreto retornado."
