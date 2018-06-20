@@ -18,6 +18,9 @@ from pprint import pprint
 # print(len(dataset_list))
 # print(dataset_list[0])
 
+# Imprime divisão para separar pergunta e resposta
+def divider(): return print('='*50)
+
 # Vamos ler os dados como uma lista
 print("Lendo o documento...")
 with open("./dataset/chicago.csv", "r") as file_read:
@@ -33,6 +36,7 @@ print(len(data_list))
 print("Linha 0: ")
 print(data_list[0])
 # É o cabeçalho dos dados, para que possamos identificar as colunas.
+data_list_header = data_list[0]
 
 # Imprimindo a segunda linha de data_list, ela deveria conter alguns dados
 print("Linha 1: ")
@@ -44,8 +48,10 @@ input("Aperte Enter para continuar...")
 print("\n\nTAREFA 1: Imprimindo as primeiras 20 amostras")
 
 # DONE TAREFA 1.1: Por For Loop
+divider()
 for index in range(0,20):
     pprint(data_list[index])
+divider()
 
 # Vamos mudar o data_list para remover o cabeçalho dele.
 data_list = data_list[1:]
@@ -61,7 +67,13 @@ input("Aperte Enter para continuar...")
 # TODO: Imprima o `gênero` das primeiras 20 linhas
 
 print("\nTAREFA 2: Imprimindo o gênero das primeiras 20 amostras")
+find_column_index_of = lambda column_name: data_list_header.index(column_name)
+gender_index = find_column_index_of('Gender')
+sample_gender_first_20 = [line[gender_index] for line in sample_first_20]
 
+divider()
+pprint(sample_gender_first_20)
+divider()
 
 # Ótimo! Nós podemos pegar as linhas(samples) iterando com um for, e as colunas(features) por índices.
 # Mas ainda é difícil pegar uma coluna em uma lista. Exemplo: Lista com todos os gêneros
