@@ -7,16 +7,16 @@ from zipfile import ZipFile
 import matplotlib.pyplot as plt
 from pprint import pprint
 
-print("Lendo o zip...")
+# print("Lendo o zip...")
 
-with ZipFile('./dataset/chicago.zip') as zip:
-    with zip.open('chicago.csv', 'r') as raw_data:
-        dataset = csv.reader(io.TextIOWrapper(raw_data))
-        print('dataset_list')
-        dataset_list = list(dataset)
+# with ZipFile('./dataset/chicago.zip') as zip:
+#     with zip.open('chicago.csv', 'r') as raw_data:
+#         dataset = csv.reader(io.TextIOWrapper(raw_data))
+#         print('dataset_list')
+#         dataset_list = list(dataset)
 
-print(len(dataset_list))
-print(dataset_list[0])
+# print(len(dataset_list))
+# print(dataset_list[0])
 
 # Vamos ler os dados como uma lista
 print("Lendo o documento...")
