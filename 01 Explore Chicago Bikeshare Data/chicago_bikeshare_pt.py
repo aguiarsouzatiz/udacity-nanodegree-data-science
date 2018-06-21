@@ -143,9 +143,15 @@ input("Aperte Enter para continuar...")
 # TAREFA 6
 # TODO: Crie uma função que pegue o gênero mais popular, e retorne este gênero como uma string.
 # Esperamos ver "Masculino", "Feminino", ou "Igual" como resposta.
+genders_label = ["Masculino", "Feminino"]
+genders_by = lambda label, number: dict(zip(number, label))
+
 def most_popular_gender(data_list):
-    answer = ""
-    return answer
+    genders_number = count_gender(data_list)
+    genders = genders_by(genders_label, genders_number)
+    popular = max(genders_number)
+
+    return 'Igual' if genders_number.count(popular) > 1 else genders[popular]
 
 
 print("\nTAREFA 6: Qual é o gênero mais popular na lista?")
