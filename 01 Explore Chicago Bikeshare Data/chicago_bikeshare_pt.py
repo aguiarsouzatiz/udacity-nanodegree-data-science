@@ -163,6 +163,9 @@ assert most_popular_gender(data_list) == "Masculino", "TAREFA 6: Resultado de re
 # -----------------------------------------------------
 
 # Se tudo está rodando como esperado, verifique este gráfico!
+divider()
+print("Gráfico sobre gênero")
+divider()
 gender_list = column_to_list(data_list, -2)
 types = ["Male", "Female"]
 quantity = count_gender(data_list)
@@ -178,16 +181,50 @@ input("Aperte Enter para continuar...")
 # TAREFA 7
 # TODO: Crie um gráfico similar para user_types. Tenha certeza que a legenda está correta.
 print("\nTAREFA 7: Verifique o gráfico!")
+def group_values_of(data, index):
+    data_without_headers = data[1:]
+    column_list = column_to_list(data_without_headers, index)
+    values = set(column_list)
+    return {
+        'values': [value for value in values],
+        'quantity': [column_list.count(value) for value in values],
+    }
 
+user_types_index = find_column_index_of('User Type')
+# get_user_types = group_values_of(data_list, user_types_index)
+get_label_of = lambda column: {'User Type': 'Tipo de usuário', 'Gender': 'Gênero'}[column]
 
+def generate_chart_of(column_data, column_name):
+    values = column_data['values']
+    quantity = column_data['quantity']
+    y_pos = list(range(len(values)))
+    label = get_label_of(column_name)
+    plt.bar(y_pos, quantity)
+    plt.ylabel('Quantidade')
+    plt.xlabel(f'{label}')
+    plt.xticks(y_pos, values)
+    plt.title(f'Quantidade por {label.lower()}')
+    plt.show(block=True)
+
+def draw_chart_by(data_list, column_name):
+    index = find_column_index_of(column_name)
+    column_data = group_values_of(data_list, index)
+    generate_chart_of(column_data, column_name)
+
+divider()
+print("Gráfico sobre tipo de usuário")
+divider()
+draw_chart_by(data_list, 'User Type')
 input("Aperte Enter para continuar...")
 # TAREFA 8
 # TODO: Responda a seguinte questão
 male, female = count_gender(data_list)
 print("\nTAREFA 8: Por que a condição a seguir é Falsa?")
 print("male + female == len(data_list):", male + female == len(data_list))
-answer = "Escreva sua resposta aqui."
+answer = "A condição é falsa porque na coluna de Gênero há valores vazios. Estes são contabilizados no cálculo da quantidade de valores o que causa a diferença."
+divider()
 print("resposta:", answer)
+divider()
 
 # ------------ NÃO MUDE NENHUM CÓDIGO AQUI ------------
 assert answer != "Escreva sua resposta aqui.", "TAREFA 8: Escreva sua própria resposta!"
