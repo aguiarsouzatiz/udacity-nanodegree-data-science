@@ -6,6 +6,7 @@ import io
 from zipfile import ZipFile
 import matplotlib.pyplot as plt
 from pprint import pprint
+from statistics import mean, median
 
 # print("Lendo o zip...")
 
@@ -29,6 +30,7 @@ print("Ok!")
 def divider(): return print('='*50) # Imprime divisão para separar pergunta e resposta
 data_list_header = data_list[0]
 find_column_index_of = lambda column_name: data_list_header.index(column_name)
+convert_to_int = lambda data_strings: [int(string_value) for string_value in data_strings]
 
 # Vamos verificar quantas linhas nós temos
 print("Número de linhas:")
@@ -234,16 +236,33 @@ input("Aperte Enter para continuar...")
 # Vamos trabalhar com trip_duration (duração da viagem) agora. Não conseguimos tirar alguns valores dele.
 # TAREFA 9
 # TODO: Ache a duração de viagem Mínima, Máxima, Média, e Mediana.
-# Você não deve usar funções prontas parTODO isso, como max() e min().
-trip_duration_list = column_to_list(data_list, 2)
-min_trip = 0.
-max_trip = 0.
-mean_trip = 0.
-median_trip = 0.
+# Você não deve usar funções prontas para isso, como max() e min().
 
+trip_duration_list = column_to_list(data_list, 2)
+
+# SOLUÇÃO TAREFA 9.1 max - Por function
+# def get_max_from(values):
+#     final = values[0]
+#     for value in values:
+#         if value > final:
+#             final = value
+#     return final
+
+# SOLUÇÃO TAREFA 9.2 max - Por reduce
+# to_get_max = lambda previous, current: previous if previous > current else current
+# reduce(to_get_max, trips_values)
+
+# SOLUÇÃO TAREFA 9.3 max - Por sorted
+trip_duration_integers = convert_to_int(trip_duration_list[1:])
+min_trip = sorted(trip_duration_integers)[0]
+max_trip = sorted(trip_duration_integers)[-1]
+mean_trip = mean(trip_duration_integers)
+median_trip = median(trip_duration_integers)
 
 print("\nTAREFA 9: Imprimindo o mínimo, máximo, média, e mediana")
-print("Min: ", min_trip, "Max: ", max_trip, "Média: ", mean_trip, "Mediana: ", median_trip)
+divider()
+print("Min: ", min_trip, "Max: ", max_trip, "Média: ", median_trip, "Mediana: ", mean_trip)
+divider()
 
 # ------------ NÃO MUDE NENHUM CÓDIGO AQUI ------------
 assert round(min_trip) == 60, "TAREFA 9: min_trip com resultado errado!"
