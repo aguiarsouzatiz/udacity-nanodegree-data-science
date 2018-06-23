@@ -292,12 +292,17 @@ input("Aperte Enter para continuar...")
 # TAREFA 10
 # Gênero é fácil porque nós temos apenas algumas opções. E quanto a start_stations? Quantas opções ele tem?
 # TODO: Verifique quantos tipos de start_stations nós temos, usando set()
-user_types = set()
+
+start_stations_index = find_column_index_of('Start Station')
+start_stations_list = column_to_list(data_list, start_stations_index)
+start_stations = set(start_stations_list)
 
 print("\nTAREFA 10: Imprimindo as start stations:")
-print(len(user_types))
-print(user_types)
+print(len(start_stations))
+pprint(start_stations)
 
+# Corrige variável com nome trocado. O correto seria 'start_stations' de acordo com enunciado
+user_types = start_stations
 # ------------ NÃO MUDE NENHUM CÓDIGO AQUI ------------
 assert len(user_types) == 582, "TAREFA 10: Comprimento errado de start stations."
 # -----------------------------------------------------
