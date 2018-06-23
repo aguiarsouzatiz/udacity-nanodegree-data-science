@@ -183,24 +183,41 @@ input("Aperte Enter para continuar...")
 # TAREFA 7
 # TODO: Crie um gráfico similar para user_types. Tenha certeza que a legenda está correta.
 print("\nTAREFA 7: Verifique o gráfico!")
+
+reduce_to_unique_values = lambda column_list: set(column_list)
+
+get_unique = lambda values: [value for value in values]
+
+def get_quantity_of(values, column_list):
+    return [column_list.count(value) for value in values]
+
 def group_values_of(data, index):
     data_without_headers = data[1:]
     column_list = column_to_list(data_without_headers, index)
-    values = set(column_list)
+    values = reduce_to_unique_values(column_list)
     return {
-        'values': [value for value in values],
-        'quantity': [column_list.count(value) for value in values],
+        'values': get_unique(values),
+        'quantity': get_quantity_of(values, column_list)
     }
 
-user_types_index = find_column_index_of('User Type')
-# get_user_types = group_values_of(data_list, user_types_index)
-get_label_of = lambda column: {'User Type': 'Tipo de usuário', 'Gender': 'Gênero'}[column]
+labels = {
+ 'Start Time': 'Tempo inicial',
+ 'End Time': 'Tempo final',
+ 'Trip Duration': 'Duração da viagem',
+ 'Start Station': 'Estação inicial',
+ 'End Station': 'Estação final',
+ 'User Type': 'Tipo de usuário',
+ 'Gender': 'Gênero',
+ 'Birth Year': 'Data de nascimento'
+}
+
+get_label_of = lambda column, labels: labels[column]
 
 def generate_chart_of(column_data, column_name):
     values = column_data['values']
     quantity = column_data['quantity']
     y_pos = list(range(len(values)))
-    label = get_label_of(column_name)
+    label = get_label_of(column_name, labels)
     plt.bar(y_pos, quantity)
     plt.ylabel('Quantidade')
     plt.xlabel(f'{label}')
