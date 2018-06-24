@@ -2,22 +2,10 @@
 
 # Começando com os imports
 import csv
-import io
 from zipfile import ZipFile
 import matplotlib.pyplot as plt
 from pprint import pprint
 from statistics import mean, median
-
-# print("Lendo o zip...")
-
-# with ZipFile('./dataset/chicago.zip') as zip:
-#     with zip.open('chicago.csv', 'r') as raw_data:
-#         dataset = csv.reader(io.TextIOWrapper(raw_data))
-#         print('dataset_list')
-#         dataset_list = list(dataset)
-
-# print(len(dataset_list))
-# print(dataset_list[0])
 
 # Vamos ler os dados como uma lista
 print("Lendo o documento...")
@@ -26,11 +14,31 @@ with open("./dataset/chicago.csv", "r") as file_read:
     data_list = list(reader)
 print("Ok!")
 
-# Apoio
-def divider(): return print('='*50) # Imprime divisão para separar pergunta e resposta
+# Funções de apoio
+# Imprime divisão para separar pergunta e resposta
+def divider(): return print('='*50)
+
 data_list_header = data_list[0]
-find_column_index_of = lambda column_name: data_list_header.index(column_name)
-convert_to_int = lambda data_strings: [int(string_value) for string_value in data_strings]
+
+def find_column_index_of(column_name):
+    """
+    Procura o index de por nome dentre as colunas do cabeçalho.
+    Argumentos:
+        column_name: nome do cabeçalho.
+    Retorna:
+        O index da coluna correspondente ao nome.
+    """
+    return data_list_header.index(column_name)
+
+def convert_to_int(data_strings):
+    """
+    Converte strings em integers.
+    Argumentos:
+        data_strings: lista com números como strings.
+    Retorna:
+        Uma lista de valores em integer para cada string.
+    """
+    return [int(string_value) for string_value in data_strings]
 
 # Vamos verificar quantas linhas nós temos
 print("Número de linhas:")
@@ -83,8 +91,16 @@ divider()
 input("Aperte Enter para continuar...")
 # TAREFA 3
 # TODO: Crie uma função para adicionar as colunas(features) de uma lista em outra lista, na mesma ordem
-def column_to_list(dataset, index):
-    return [data[index] for data in dataset]
+def column_to_list(data_list, index):
+    """
+    Cria uma lista a partir do index de uma determinada coluna.
+    Argumentos:
+        data_list: coleção de dados.
+        index: posição da coluna do data_list
+    Retorna:
+        Uma lista da coluna indicada.
+    """
+    return [data[index] for data in data_list]
 
 # Vamos checar com os gêneros se isso está funcionando (apenas para os primeiros 20)
 print("\nTAREFA 3: Imprimindo a lista de gêneros das primeiras 20 amostras")
@@ -123,6 +139,14 @@ input("Aperte Enter para continuar...")
 # TODO: Crie uma função para contar os gêneros. Retorne uma lista.
 # Isso deveria retornar uma lista com [count_male, count_female] (exemplo: [10, 15] significa 10 Masculinos, 15 Femininos)
 def count_gender(data_list):
+    """
+    Conta a quantidade de cada gênero na coleção de dados.
+    Argumentos:
+        data_list: coleção de dados.
+    Retorna:
+        Uma lista com a quantidade do gênero masculino e feminino.
+        Ignora os valores vazios.
+    """
     gender_index = find_column_index_of('Gender')
     gender = column_to_list(data_list, gender_index)
 
@@ -146,14 +170,32 @@ input("Aperte Enter para continuar...")
 # TODO: Crie uma função que pegue o gênero mais popular, e retorne este gênero como uma string.
 # Esperamos ver "Masculino", "Feminino", ou "Igual" como resposta.
 genders_label = ["Masculino", "Feminino"]
-genders_by = lambda label, number: dict(zip(number, label))
+def group_genders_by(numbers, labels):
+    """
+    Associa as informações duas listas de numbers e labels.
+    Argumentos:
+        numbers: lista com quantidade dos gêneros.
+        label: lista nomes dos gêneros em string.
+    Retorna:
+        Um dicionário com cada label associada a seu valor.
+    """
+    return dict(zip(numbers, labels))
 
 def most_popular_gender(data_list):
+    """
+    Informa qual gênero possui maior quantidade.
+    Argumentos:
+        data_list: coleção de dados.
+    Retorna:
+        Após comparar se há dois máximos iguais, uma string para 3 casos:
+        Empata, masculino ou feminino em maior quantidade.
+    """
     genders_number = count_gender(data_list)
-    genders = genders_by(genders_label, genders_number)
+    genders = group_genders_by(genders_number, genders_label)
     popular = max(genders_number)
+    has_equals_max_values = genders_number.count(popular) > 1
 
-    return 'Igual' if genders_number.count(popular) > 1 else genders[popular]
+    return 'Igual' if has_equals_max_values else genders[popular]
 
 
 print("\nTAREFA 6: Qual é o gênero mais popular na lista?")
@@ -186,13 +228,30 @@ print("\nTAREFA 7: Verifique o gráfico!")
 
 reduce_to_unique_values = lambda column_list: set(column_list)
 
+# Retorna uma nova lista de valores
 get_unique = lambda values: [value for value in values]
 
 def get_quantity_of(values, column_list):
+    """
+    Calcula quantidade de cada valor na coluna.
+    Argumentos:
+        values: coleção de dados únicos.
+        column_list: coleção de dados com todos os valores.
+    Retorna:
+        Uma lista com a quantidade de cada valor
+    """
     return [column_list.count(value) for value in values]
 
-def group_values_of(data, index):
-    data_without_headers = data[1:]
+def group_values_of(data_list, index):
+    """
+    Combina valores únicos e a quantidade deles.
+    Argumentos:
+        data_list: coleção de dados.
+        index: posição da coluna na coleção de dados.
+    Retorna:
+        Um dicionário com 2 chaves com valores únicos e de quantidade de cada um dos valores
+    """
+    data_without_headers = data_list[1:]
     column_list = column_to_list(data_without_headers, index)
     values = reduce_to_unique_values(column_list)
     return {
@@ -214,6 +273,14 @@ labels = {
 get_label_of = lambda column, labels: labels[column]
 
 def generate_chart_of(column_data, column_name):
+    """
+    Cria um gráfico a partir dos dados.
+    Argumentos:
+        column_data: coleção de dados com valores únicos e a quantidade deles.
+        column_name: referência para exibição da label.
+    Retorna:
+        Um dicionário com 2 chaves com valores únicos e de quantidade de cada um dos valores
+    """
     values = column_data['values']
     quantity = column_data['quantity']
     y_pos = list(range(len(values)))
@@ -226,6 +293,12 @@ def generate_chart_of(column_data, column_name):
     plt.show(block=True)
 
 def draw_chart_by(data_list, column_name):
+    """
+    Fornece os dados principais para executar a criação do gráfico.
+    Argumentos:
+        data_list: coleção de dados.
+        column_name: referência para procura do index da coluna e construção do gráfico.
+    """
     index = find_column_index_of(column_name)
     column_data = group_values_of(data_list, index)
     generate_chart_of(column_data, column_name)
@@ -340,6 +413,7 @@ while not answer.lower() == "yes" and not answer.lower() == "no":
     answer = str(input("Putz, não entendi. Tente de novo com (yes or no): "))
 
 def farewell_message():
+    divider()
     print("Terminamos por aqui. Hasta la vista baby!")
 
 def execute_challenge_task():
@@ -351,6 +425,7 @@ def execute_challenge_task():
     assert len(types) == 3, "TAREFA 11: Há 3 tipos de gênero!"
     assert sum(counts) == 1551505, "TAREFA 11: Resultado de retorno incorreto!"
     # -----------------------------------------------------
+    divider()
     farewell_message()
-
+# TODO fix lower answer
 execute_challenge_task() if answer == "yes" else farewell_message()
