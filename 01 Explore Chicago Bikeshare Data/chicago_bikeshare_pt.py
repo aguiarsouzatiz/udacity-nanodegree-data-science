@@ -298,8 +298,10 @@ start_stations_list = column_to_list(data_list, start_stations_index)
 start_stations = set(start_stations_list)
 
 print("\nTAREFA 10: Imprimindo as start stations:")
-print(len(start_stations))
+divider()
 pprint(start_stations)
+divider()
+
 
 # Corrige variável com nome trocado. O correto seria 'start_stations' de acordo com enunciado
 user_types = start_stations
@@ -307,7 +309,7 @@ user_types = start_stations
 assert len(user_types) == 582, "TAREFA 10: Comprimento errado de start stations."
 # -----------------------------------------------------
 
-input("Aperte Enter para continuar...")
+# input("Aperte Enter para continuar...")
 # TAREFA 11
 # Volte e tenha certeza que você documenteou suas funções. Explique os parâmetros de entrada, a saída, e o que a função faz. Exemplo:
 # def new_function(param1: int, param2: str) -> list:
