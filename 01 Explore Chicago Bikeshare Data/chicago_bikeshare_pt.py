@@ -428,4 +428,4 @@ def execute_challenge_task():
     divider()
     farewell_message()
 # TODO fix lower answer
-execute_challenge_task() if answer == "yes" else farewell_message()
+execute_challenge_task() if answer.lower() == "yes" else farewell_message()
