@@ -327,16 +327,22 @@ input("Aperte Enter para continuar...")
 # TAREFA 12 - Desafio! (Opcional)
 # TODO: Crie uma função para contar tipos de usuários, sem definir os tipos
 # para que nós possamos usar essa função com outra categoria de dados.
-print("Você vai encarar o desafio? (yes ou no)")
-answer = "no"
+answer = str(input("Você vai encarar o desafio? (yes ou no): "))
 
 def count_items(column_list):
-    item_types = []
-    count_items = []
+    list_without_headers = column_list[1:]
+    values = reduce_to_unique_values(list_without_headers)
+    item_types = get_unique(values)
+    count_items = get_quantity_of(values, column_list)
     return item_types, count_items
 
+while not answer.lower() == "yes" and not answer.lower() == "no":
+    answer = str(input("Putz, não entendi. Tente de novo com (yes or no): "))
 
-if answer == "yes":
+def farewell_message():
+    print("Terminamos por aqui. Hasta la vista baby!")
+
+def execute_challenge_task():
     # ------------ NÃO MUDE NENHUM CÓDIGO AQUI ------------
     column_list = column_to_list(data_list, -2)
     types, counts = count_items(column_list)
@@ -345,3 +351,6 @@ if answer == "yes":
     assert len(types) == 3, "TAREFA 11: Há 3 tipos de gênero!"
     assert sum(counts) == 1551505, "TAREFA 11: Resultado de retorno incorreto!"
     # -----------------------------------------------------
+    farewell_message()
+
+execute_challenge_task() if answer == "yes" else farewell_message()
