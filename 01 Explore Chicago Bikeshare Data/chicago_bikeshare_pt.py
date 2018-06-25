@@ -5,6 +5,7 @@ import csv
 from zipfile import ZipFile
 import matplotlib.pyplot as plt
 from pprint import pprint
+# TODO REV remove after create custom mean and median
 from statistics import mean, median
 
 # Vamos ler os dados como uma lista
@@ -120,6 +121,8 @@ input("Aperte Enter para continuar...")
 # TODO: Conte cada gênero. Você não deveria usar uma função para isso.
 gender_index = find_column_index_of('Gender')
 gender = column_to_list(data_list, gender_index)
+# TODO REV create custom count function
+# TODO REV replace count built-in by custom count
 male = gender.count('Male')
 female = gender.count('Female')
 
@@ -149,7 +152,7 @@ def count_gender(data_list):
     """
     gender_index = find_column_index_of('Gender')
     gender = column_to_list(data_list, gender_index)
-
+    # TODO REV replace count built-in by custom count
     return [gender.count('Male'), gender.count('Female')]
 
 
@@ -330,23 +333,12 @@ input("Aperte Enter para continuar...")
 
 trip_duration_list = column_to_list(data_list, 2)
 
-# SOLUÇÃO TAREFA 9.1 max - Por function
-# def get_max_from(values):
-#     final = values[0]
-#     for value in values:
-#         if value > final:
-#             final = value
-#     return final
-
-# SOLUÇÃO TAREFA 9.2 max - Por reduce
-# to_get_max = lambda previous, current: previous if previous > current else current
-# reduce(to_get_max, trips_values)
-
-# SOLUÇÃO TAREFA 9.3 max - Por sorted
 trip_duration_integers = convert_to_int(trip_duration_list[1:])
 min_trip = sorted(trip_duration_integers)[0]
 max_trip = sorted(trip_duration_integers)[-1]
+# TODO REV create and replace sutom mean function
 mean_trip = mean(trip_duration_integers)
+# TODO REV create and replace sutom median function
 median_trip = median(trip_duration_integers)
 
 print("\nTAREFA 9: Imprimindo o mínimo, máximo, média, e mediana")
@@ -401,8 +393,13 @@ input("Aperte Enter para continuar...")
 # TODO: Crie uma função para contar tipos de usuários, sem definir os tipos
 # para que nós possamos usar essa função com outra categoria de dados.
 answer = str(input("Você vai encarar o desafio? (yes ou no): "))
+# TODO REV
+# Aqui, você deveria responder "yes" ou "no", se VOCÊ topa o desafio, para criar a função e não se o usuário topa, ok?
+# Neste caso, como você implementou a função, você poderia apenas ter inserido nessa linha:
+# answer = "yes"
 
 def count_items(column_list):
+    # TODO REV explain function
     list_without_headers = column_list[1:]
     values = reduce_to_unique_values(list_without_headers)
     item_types = get_unique(values)
@@ -413,10 +410,13 @@ while not answer.lower() == "yes" and not answer.lower() == "no":
     answer = str(input("Putz, não entendi. Tente de novo com (yes or no): "))
 
 def farewell_message():
+    # TODO REV explain function
     divider()
     print("Terminamos por aqui. Hasta la vista baby!")
 
 def execute_challenge_task():
+    # TODO REV explain function
+
     # ------------ NÃO MUDE NENHUM CÓDIGO AQUI ------------
     column_list = column_to_list(data_list, -2)
     types, counts = count_items(column_list)
@@ -427,5 +427,5 @@ def execute_challenge_task():
     # -----------------------------------------------------
     divider()
     farewell_message()
-# TODO fix lower answer
+
 execute_challenge_task() if answer.lower() == "yes" else farewell_message()
