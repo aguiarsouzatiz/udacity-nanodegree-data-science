@@ -335,28 +335,49 @@ def sum_all(numbers):
         result += number
     return result
 
+# cria uma cópia do dataset
+copy = lambda dataset: [data for data in dataset]
+
+# sort algoritmo baseado em:
+# https://interactivepython.org/courselib/static/pythonds/SortSearch/TheInsertionSort.html
+# não foi usado porque está muito mais lento que a função nativa
+# def sort_of(data_list):
+#     data = copy(data_list)
+#     for index in range(1,len(data)):
+#         current_value = data[index]
+#         position = index
+
+#         while position > 0 and (data[position -1] > current_value):
+#             data[position] = data[position -1]
+#             position -= 1
+#         data[position] = current_value
+#     return data
+
+def get_middle(sorted_data):
+    middle_index = round(len(sorted_data) / 2)
+    center_value = sorted_data[middle_index - 1:middle_index][0]
+    center_value_right = sorted_data[middle_index:middle_index + 1][0]
+    return {'center':center_value, 'left':center_value, 'right':center_value_right}
+
 def mean_of(numbers):
     return sum_all(numbers) / len(numbers)
 
-def median_of(data_list):
-    data = sorted(data_list)
-    is_even = len(data) % 2 == 0
-    middle = round(len(data) / 2)
+def median_of(sorted_data):
+    is_even = len(sorted_data) % 2 == 0
+    middle = get_middle(sorted_data)
     if is_even:
-        return ((data[middle-1:middle])[0] + (data[middle:middle+1])[0]) / 2
+        return (middle['left'] + middle['right']) / 2
     else:
-        return (data[middle-1:middle])[0]
+        return middle['center']
 
 
 trip_duration_list = column_to_list(data_list, 2)
+sorted_trip_duration_integers = sorted(convert_to_int(trip_duration_list[1:]))
 
-trip_duration_integers = convert_to_int(trip_duration_list[1:])
-min_trip = sorted(trip_duration_integers)[0]
-max_trip = sorted(trip_duration_integers)[-1]
-# TODO REV create and replace sutom mean function
-mean_trip = mean_of(trip_duration_integers)
-# TODO REV create and replace sutom median function
-median_trip = median_of(trip_duration_integers)
+min_trip = sorted_trip_duration_integers[0]
+max_trip = sorted_trip_duration_integers[-1]
+mean_trip = mean_of(sorted_trip_duration_integers)
+median_trip = median_of(sorted_trip_duration_integers)
 
 print("\nTAREFA 9: Imprimindo o mínimo, máximo, média, e mediana")
 divider()
