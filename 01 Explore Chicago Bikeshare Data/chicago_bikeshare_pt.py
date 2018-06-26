@@ -5,8 +5,6 @@ import csv
 from zipfile import ZipFile
 import matplotlib.pyplot as plt
 from pprint import pprint
-# TODO REV remove after create custom mean and median
-from statistics import mean, median
 
 # Vamos ler os dados como uma lista
 print("Lendo o documento...")
@@ -331,19 +329,38 @@ input("Aperte Enter para continuar...")
 # TODO: Ache a duração de viagem Mínima, Máxima, Média, e Mediana.
 # Você não deve usar funções prontas para isso, como max() e min().
 
+def sum_all(numbers):
+    result = 0
+    for number in numbers:
+        result += number
+    return result
+
+def mean_of(numbers):
+    return sum_all(numbers) / len(numbers)
+
+def median_of(data_list):
+    data = sorted(data_list)
+    is_even = len(data) % 2 == 0
+    middle = round(len(data) / 2)
+    if is_even:
+        return ((data[middle-1:middle])[0] + (data[middle:middle+1])[0]) / 2
+    else:
+        return (data[middle-1:middle])[0]
+
+
 trip_duration_list = column_to_list(data_list, 2)
 
 trip_duration_integers = convert_to_int(trip_duration_list[1:])
 min_trip = sorted(trip_duration_integers)[0]
 max_trip = sorted(trip_duration_integers)[-1]
 # TODO REV create and replace sutom mean function
-mean_trip = mean(trip_duration_integers)
+mean_trip = mean_of(trip_duration_integers)
 # TODO REV create and replace sutom median function
-median_trip = median(trip_duration_integers)
+median_trip = median_of(trip_duration_integers)
 
 print("\nTAREFA 9: Imprimindo o mínimo, máximo, média, e mediana")
 divider()
-print("Min: ", min_trip, "Max: ", max_trip, "Média: ", median_trip, "Mediana: ", mean_trip)
+print("Min: ", min_trip, "Max: ", max_trip, "Média: ", mean_trip, "Mediana: ", median_trip)
 divider()
 
 # ------------ NÃO MUDE NENHUM CÓDIGO AQUI ------------
