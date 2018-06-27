@@ -153,7 +153,7 @@ def count_gender(data_list):
     """
     gender_index = find_column_index_of('Gender')
     gender = column_to_list(data_list, gender_index)
-    # TODO REV replace count built-in by custom count
+
     return [count_in(gender, 'Male'), count_in(gender, 'Female')]
 
 
@@ -430,13 +430,8 @@ assert len(user_types) == 582, "TAREFA 10: Comprimento errado de start stations.
 
 input("Aperte Enter para continuar...")
 # TAREFA 12 - Desafio! (Opcional)
-
+# Crie uma função para contar tipos de usuários, sem definir os tipos
 # para que nós possamos usar essa função com outra categoria de dados.
-answer = str(input("Você vai encarar o desafio? (yes ou no): "))
-# TODO REV
-# Aqui, você deveria responder "yes" ou "no", se VOCÊ topa o desafio, para criar a função e não se o usuário topa, ok?
-# Neste caso, como você implementou a função, você poderia apenas ter inserido nessa linha:
-# answer = "yes"
 
 def count_items(column_list):
     # TODO REV explain function
@@ -446,26 +441,19 @@ def count_items(column_list):
     count_items = get_quantity_of(values, column_list)
     return item_types, count_items
 
-while not answer.lower() == "yes" and not answer.lower() == "no":
-    answer = str(input("Putz, não entendi. Tente de novo com (yes or no): "))
-
 def farewell_message():
     # TODO REV explain function
-    divider()
     print("Terminamos por aqui. Hasta la vista baby!")
 
-def execute_challenge_task():
-    # TODO REV explain function
-
-    # ------------ NÃO MUDE NENHUM CÓDIGO AQUI ------------
-    column_list = column_to_list(data_list, -2)
-    types, counts = count_items(column_list)
-    print("\nTAREFA 11: Imprimindo resultados para count_items()")
-    print("Tipos:", types, "Counts:", counts)
-    assert len(types) == 3, "TAREFA 11: Há 3 tipos de gênero!"
-    assert sum(counts) == 1551505, "TAREFA 11: Resultado de retorno incorreto!"
-    # -----------------------------------------------------
-    divider()
-    farewell_message()
-
-execute_challenge_task() if answer.lower() == "yes" else farewell_message()
+divider()
+# ------------ NÃO MUDE NENHUM CÓDIGO AQUI ------------
+column_list = column_to_list(data_list, -2)
+types, counts = count_items(column_list)
+print("\nTAREFA 11: Imprimindo resultados para count_items()")
+print("Tipos:", types, "Counts:", counts)
+assert len(types) == 3, "TAREFA 11: Há 3 tipos de gênero!"
+assert sum(counts) == 1551505, "TAREFA 11: Resultado de retorno incorreto!"
+# -----------------------------------------------------
+divider()
+farewell_message()
+divider()
