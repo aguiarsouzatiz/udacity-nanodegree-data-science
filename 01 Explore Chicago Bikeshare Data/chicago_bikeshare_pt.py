@@ -40,6 +40,14 @@ def convert_to_int(data_strings):
     return [int(string_value) for string_value in data_strings]
 
 def count_in(dataset, target):
+    """
+    Conta repetição de valores numa coleção de dados a partir de uma referência.
+    Argumentos:
+        dataset: coleção de dados.
+        target: referência para contar repetições.
+    Retorna:
+        Um número com o total de repetições de target.
+    """
     result = 0
     for data in dataset:
         if data == target:
@@ -235,7 +243,7 @@ reduce_to_unique_values = lambda column_list: set(column_list)
 # Retorna uma nova lista de valores
 get_unique = lambda values: [value for value in values]
 
-def get_quantity_of(values, column_list):
+def get_quantity_of(column_list, values):
     """
     Calcula quantidade de cada valor na coluna.
     Argumentos:
@@ -260,7 +268,7 @@ def group_values_of(data_list, index):
     values = reduce_to_unique_values(column_list)
     return {
         'values': get_unique(values),
-        'quantity': get_quantity_of(values, column_list)
+        'quantity': get_quantity_of(column_list, values)
     }
 
 labels = {
@@ -333,6 +341,13 @@ input("Aperte Enter para continuar...")
 # Você não deve usar funções prontas para isso, como max() e min().
 
 def sum_all(numbers):
+    """
+    Soma os valores de uma coleção de dados.
+    Argumentos:
+        numbers: coleção de números.
+    Retorna:
+        Um valor com a soma dos números.
+    """
     result = 0
     for number in numbers:
         result += number
@@ -357,15 +372,37 @@ copy = lambda dataset: [data for data in dataset]
 #     return data
 
 def get_middle(sorted_data):
+    """
+    Encontra os valores centrais de uma lista ordenada com quantidade par ou impar.
+    Argumentos:
+        sorted_data: coleção de números ordenada do menor para o maior.
+    Retorna:
+        Um dicionário com 3 valores valores que equivalem a uma lista par ou ímpar.
+    """
     middle_index = round(len(sorted_data) / 2)
     center_value = sorted_data[middle_index - 1:middle_index][0]
     center_value_right = sorted_data[middle_index:middle_index + 1][0]
     return {'center':center_value, 'left':center_value, 'right':center_value_right}
 
 def mean_of(numbers):
+    """
+    Fornece a média de uma quantidade de números.
+    Argumentos:
+        numbers: coleção de números.
+    Retorna:
+        Um valor equivalente a média de numbers.
+    """
     return sum_all(numbers) / len(numbers)
 
 def median_of(sorted_data):
+    """
+    Fornece a mediana de uma coleção de dados.
+    Argumentos:
+        sorted_data: coleção de números ordenada do menor para o maior.
+    Retorna:
+        Dois valores condicionais equivalentes a mediana para sorted_data:
+        1 para total de sorted_data par e outro ímpar.
+    """
     is_even = len(sorted_data) % 2 == 0
     middle = get_middle(sorted_data)
     if is_even:
@@ -434,15 +471,25 @@ input("Aperte Enter para continuar...")
 # para que nós possamos usar essa função com outra categoria de dados.
 
 def count_items(column_list):
-    # TODO REV explain function
+    """
+    Conta repetição de valores numa coleção de dados.
+    Argumentos:
+        column_list: coleção de dados com valores únicos e a quantidade deles.
+    Retorna:
+        Uma lista para os valores únicos presentes e outro valor para repetição deles.
+    """
     list_without_headers = column_list[1:]
     values = reduce_to_unique_values(list_without_headers)
     item_types = get_unique(values)
-    count_items = get_quantity_of(values, column_list)
+    count_items = get_quantity_of(column_list, values)
     return item_types, count_items
 
 def farewell_message():
-    # TODO REV explain function
+    """
+    Faz marcação do fim do programa.
+    Retorna:
+        Uma mensagem supimpa ;) para quem usa
+    """
     print("Terminamos por aqui. Hasta la vista baby!")
 
 divider()
