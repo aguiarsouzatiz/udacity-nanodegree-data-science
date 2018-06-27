@@ -39,6 +39,13 @@ def convert_to_int(data_strings):
     """
     return [int(string_value) for string_value in data_strings]
 
+def count_in(dataset, target):
+    result = 0
+    for data in dataset:
+        if data == target:
+            result += 1
+    return result
+
 # Vamos verificar quantas linhas nós temos
 print("Número de linhas:")
 print(len(data_list))
@@ -119,8 +126,8 @@ gender_index = find_column_index_of('Gender')
 gender = column_to_list(data_list, gender_index)
 # TODO REV create custom count function
 # TODO REV replace count built-in by custom count
-male = gender.count('Male')
-female = gender.count('Female')
+male = count_in(gender, 'Male')
+female = count_in(gender, 'Female')
 
 # Verificando o resultado
 print("\nTAREFA 4: Imprimindo quantos masculinos e femininos nós encontramos")
@@ -149,7 +156,7 @@ def count_gender(data_list):
     gender_index = find_column_index_of('Gender')
     gender = column_to_list(data_list, gender_index)
     # TODO REV replace count built-in by custom count
-    return [gender.count('Male'), gender.count('Female')]
+    return [count_in(gender, 'Male'), count_in(gender, 'Female')]
 
 
 print("\nTAREFA 5: Imprimindo o resultado de count_gender")
@@ -192,7 +199,7 @@ def most_popular_gender(data_list):
     genders_number = count_gender(data_list)
     genders = group_genders_by(genders_number, genders_label)
     popular = max(genders_number)
-    has_equals_max_values = genders_number.count(popular) > 1
+    has_equals_max_values = count_in(genders_number, popular) > 1
 
     return 'Igual' if has_equals_max_values else genders[popular]
 
@@ -239,7 +246,7 @@ def get_quantity_of(values, column_list):
     Retorna:
         Uma lista com a quantidade de cada valor
     """
-    return [column_list.count(value) for value in values]
+    return [count_in(column_list, value) for value in values]
 
 def group_values_of(data_list, index):
     """
