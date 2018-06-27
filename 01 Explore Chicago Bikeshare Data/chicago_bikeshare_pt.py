@@ -124,8 +124,6 @@ input("Aperte Enter para continuar...")
 
 gender_index = find_column_index_of('Gender')
 gender = column_to_list(data_list, gender_index)
-# TODO REV create custom count function
-# TODO REV replace count built-in by custom count
 male = count_in(gender, 'Male')
 female = count_in(gender, 'Female')
 
