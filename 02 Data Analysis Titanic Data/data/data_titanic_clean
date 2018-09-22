@@ -1,4 +1,4 @@
-survived,ticket_class,name,gender,age,siblings_number,parents_number,ticket_number,fare,embarkation_city
+survived,ticket_class,name,gender,age,siblings_or_spouses,parents_or_children,ticket_number,fare,embarkation_city
 no,third,"Braund, Mr. Owen Harris",male,22.0,1,0,A/5 21171,7.25,Southampton
 yes,first,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38.0,1,0,PC 17599,71.2833,Cherbourg
 yes,third,"Heikkinen, Miss. Laina",female,26.0,0,0,STON/O2. 3101282,7.925,Southampton
