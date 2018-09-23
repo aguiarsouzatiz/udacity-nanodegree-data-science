@@ -59,14 +59,3 @@ def adjust_column_by(criteria_to_adjust, to_lower=True):
         else: 
             return initial_value
     return get_adjusted
-
-
-def plot_distribution_with_means(data_frame, content):
-    ''''
-    Plots a seaborn distribution chart with mean, median and mode mark line
-    '''
-    data_frame.set_title(content['title'])
-    data_frame.axvline(content['mean'], color='r', linestyle='-', label='mean')
-    data_frame.axvline(content['median'], color='b', linestyle='--', label='median')
-    data_frame.axvline(content['mode'], color='g', linestyle='-.', label='mode')
-    data_frame.legend()
