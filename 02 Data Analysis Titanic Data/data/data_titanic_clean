@@ -4,7 +4,7 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Heikkinen, Miss. Laina",26.0,female,third,7.925,STON/O2. 3101282,Southampton,0,0,yes
 "Futrelle, Mrs. Jacques Heath (Lily May Peel)",35.0,female,first,53.1,113803,Southampton,1,0,yes
 "Allen, Mr. William Henry",35.0,male,third,8.05,373450,Southampton,0,0,no
-"Moran, Mr. James",20.90931717,male,third,8.4583,330877,Queestown,0,0,no
+"Moran, Mr. James",20.9,male,third,8.4583,330877,Queestown,0,0,no
 "McCarthy, Mr. Timothy J",54.0,male,first,51.8625,17463,Southampton,0,0,no
 "Palsson, Master. Gosta Leonard",2.0,male,third,21.075,349909,Southampton,3,1,no
 "Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",27.0,female,third,11.1333,347742,Southampton,0,2,yes
@@ -16,45 +16,45 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Vestrom, Miss. Hulda Amanda Adolfina",14.0,female,third,7.8542,350406,Southampton,0,0,no
 "Hewlett, Mrs. (Mary D Kingcome) ",55.0,female,second,16.0,248706,Southampton,0,0,yes
 "Rice, Master. Eugene",2.0,male,third,29.125,382652,Queestown,4,1,no
-"Williams, Mr. Charles Eugene",62.13529179,male,second,13.0,244373,Southampton,0,0,yes
+"Williams, Mr. Charles Eugene",62.1,male,second,13.0,244373,Southampton,0,0,yes
 "Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",31.0,female,third,18.0,345763,Southampton,1,0,no
-"Masselmani, Mrs. Fatima",59.64040575,female,third,7.225,2649,Cherbourg,0,0,yes
+"Masselmani, Mrs. Fatima",59.6,female,third,7.225,2649,Cherbourg,0,0,yes
 "Fynney, Mr. Joseph J",35.0,male,second,26.0,239865,Southampton,0,0,no
 "Beesley, Mr. Lawrence",34.0,male,second,13.0,248698,Southampton,0,0,yes
 "McGowan, Miss. Anna ""Annie""",15.0,female,third,8.0292,330923,Queestown,0,0,yes
 "Sloper, Mr. William Thompson",28.0,male,first,35.5,113788,Southampton,0,0,yes
 "Palsson, Miss. Torborg Danira",8.0,female,third,21.075,349909,Southampton,3,1,no
 "Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",38.0,female,third,31.3875,347077,Southampton,1,5,yes
-"Emir, Mr. Farred Chehab",12.02488446,male,third,7.225,2631,Cherbourg,0,0,no
+"Emir, Mr. Farred Chehab",12.0,male,third,7.225,2631,Cherbourg,0,0,no
 "Fortune, Mr. Charles Alexander",19.0,male,first,263.0,19950,Southampton,3,2,no
-"O'Dwyer, Miss. Ellen ""Nellie""",69.41204392,female,third,7.8792,330959,Queestown,0,0,yes
-"Todoroff, Mr. Lalio",61.24202836,male,third,7.8958,349216,Southampton,0,0,no
+"O'Dwyer, Miss. Ellen ""Nellie""",69.4,female,third,7.8792,330959,Queestown,0,0,yes
+"Todoroff, Mr. Lalio",61.2,male,third,7.8958,349216,Southampton,0,0,no
 "Uruchurtu, Don. Manuel E",40.0,male,first,27.7208,PC 17601,Cherbourg,0,0,no
-"Spencer, Mrs. William Augustus (Marie Eugenie)",41.44933962,female,first,146.5208,PC 17569,Cherbourg,1,0,yes
-"Glynn, Miss. Mary Agatha",10.3519298,female,third,7.75,335677,Queestown,0,0,yes
+"Spencer, Mrs. William Augustus (Marie Eugenie)",41.4,female,first,146.5208,PC 17569,Cherbourg,1,0,yes
+"Glynn, Miss. Mary Agatha",10.4,female,third,7.75,335677,Queestown,0,0,yes
 "Wheadon, Mr. Edward H",66.0,male,second,10.5,C.A. 24579,Southampton,0,0,no
 "Meyer, Mr. Edgar Joseph",28.0,male,first,82.1708,PC 17604,Cherbourg,1,0,no
 "Holverson, Mr. Alexander Oskar",42.0,male,first,52.0,113789,Southampton,1,0,no
-"Mamee, Mr. Hanna",50.76510719,male,third,7.2292,2677,Cherbourg,0,0,yes
+"Mamee, Mr. Hanna",50.8,male,third,7.2292,2677,Cherbourg,0,0,yes
 "Cann, Mr. Ernest Charles",21.0,male,third,8.05,A./5. 2152,Southampton,0,0,no
 "Vander Planke, Miss. Augusta Maria",18.0,female,third,18.0,345764,Southampton,2,0,no
 "Nicola-Yarred, Miss. Jamila",14.0,female,third,11.2417,2651,Cherbourg,1,0,yes
 "Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",40.0,female,third,9.475,7546,Southampton,1,0,no
 "Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",27.0,female,second,21.0,11668,Southampton,1,0,no
-"Kraeff, Mr. Theodor",46.79992031,male,third,7.8958,349253,Cherbourg,0,0,no
+"Kraeff, Mr. Theodor",46.8,male,third,7.8958,349253,Cherbourg,0,0,no
 "Laroche, Miss. Simonne Marie Anne Andree",3.0,female,second,41.5792,SC/Paris 2123,Cherbourg,1,2,yes
 "Devaney, Miss. Margaret Delia",19.0,female,third,7.8792,330958,Queestown,0,0,yes
-"Rogers, Mr. William John",20.09347534,male,third,8.05,S.C./A.4. 23567,Southampton,0,0,no
-"Lennon, Mr. Denis",63.07128158,male,third,15.5,370371,Queestown,1,0,no
-"O'Driscoll, Miss. Bridget",55.87974807,female,third,7.75,14311,Queestown,0,0,yes
-"Samaan, Mr. Youssef",26.48084528,male,third,21.6792,2662,Cherbourg,2,0,no
+"Rogers, Mr. William John",20.1,male,third,8.05,S.C./A.4. 23567,Southampton,0,0,no
+"Lennon, Mr. Denis",63.1,male,third,15.5,370371,Queestown,1,0,no
+"O'Driscoll, Miss. Bridget",55.9,female,third,7.75,14311,Queestown,0,0,yes
+"Samaan, Mr. Youssef",26.5,male,third,21.6792,2662,Cherbourg,2,0,no
 "Arnold-Franchi, Mrs. Josef (Josefine Franchi)",18.0,female,third,17.8,349237,Southampton,1,0,no
 "Panula, Master. Juha Niilo",7.0,male,third,39.6875,3101295,Southampton,4,1,no
 "Nosworthy, Mr. Richard Cater",21.0,male,third,7.8,A/4. 39886,Southampton,0,0,no
 "Harper, Mrs. Henry Sleeper (Myna Haxtun)",49.0,female,first,76.7292,PC 17572,Cherbourg,1,0,yes
 "Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",29.0,female,second,26.0,2926,Southampton,1,0,yes
 "Ostby, Mr. Engelhart Cornelius",65.0,male,first,61.9792,113509,Cherbourg,0,1,no
-"Woolner, Mr. Hugh",26.29833389,male,first,35.5,19947,Southampton,0,0,yes
+"Woolner, Mr. Hugh",26.3,male,first,35.5,19947,Southampton,0,0,yes
 "Rugg, Miss. Emily",21.0,female,second,10.5,C.A. 31026,Southampton,0,0,yes
 "Novel, Mr. Mansouer",28.5,male,third,7.2292,2697,Cherbourg,0,0,no
 "West, Miss. Constance Mirium",5.0,female,second,27.75,C.A. 34651,Southampton,1,2,yes
@@ -63,8 +63,8 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Icard, Miss. Amelie",38.0,female,first,80.0,113572,not_provided,0,0,yes
 "Harris, Mr. Henry Birkhardt",45.0,male,first,83.475,36973,Southampton,1,0,no
 "Skoog, Master. Harald",4.0,male,third,27.9,347088,Southampton,3,2,no
-"Stewart, Mr. Albert A",74.33062884,male,first,27.7208,PC 17605,Cherbourg,0,0,no
-"Moubarek, Master. Gerios",30.06171315,male,third,15.2458,2661,Cherbourg,1,1,yes
+"Stewart, Mr. Albert A",74.3,male,first,27.7208,PC 17605,Cherbourg,0,0,no
+"Moubarek, Master. Gerios",30.1,male,third,15.2458,2661,Cherbourg,1,1,yes
 "Nye, Mrs. (Elizabeth Ramell)",29.0,female,second,10.5,C.A. 29395,Southampton,0,0,yes
 "Crease, Mr. Ernest James",19.0,male,third,8.1583,S.P. 3464,Southampton,0,0,no
 "Andersson, Miss. Erna Alexandra",17.0,female,third,7.925,3101281,Southampton,4,2,yes
@@ -75,18 +75,18 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Chronopoulos, Mr. Apostolos",26.0,male,third,14.4542,2680,Cherbourg,1,0,no
 "Bing, Mr. Lee",32.0,male,third,56.4958,1601,Southampton,0,0,yes
 "Moen, Mr. Sigurd Hansen",25.0,male,third,7.65,348123,Southampton,0,0,no
-"Staneff, Mr. Ivan",20.06074292,male,third,7.8958,349208,Southampton,0,0,no
-"Moutal, Mr. Rahamin Haim",0.67866898,male,third,8.05,374746,Southampton,0,0,no
+"Staneff, Mr. Ivan",20.1,male,third,7.8958,349208,Southampton,0,0,no
+"Moutal, Mr. Rahamin Haim",0.7,male,third,8.05,374746,Southampton,0,0,no
 "Caldwell, Master. Alden Gates",0.83,male,second,29.0,248738,Southampton,0,2,yes
 "Dowdell, Miss. Elizabeth",30.0,female,third,12.475,364516,Southampton,0,0,yes
 "Waelens, Mr. Achille",22.0,male,third,9.0,345767,Southampton,0,0,no
 "Sheerlinck, Mr. Jan Baptist",29.0,male,third,9.5,345779,Southampton,0,0,yes
-"McDermott, Miss. Brigdet Delia",55.77450149,female,third,7.7875,330932,Queestown,0,0,yes
+"McDermott, Miss. Brigdet Delia",55.8,female,third,7.7875,330932,Queestown,0,0,yes
 "Carrau, Mr. Francisco M",28.0,male,first,47.1,113059,Southampton,0,0,no
 "Ilett, Miss. Bertha",17.0,female,second,10.5,SO/C 14885,Southampton,0,0,yes
 "Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",33.0,female,third,15.85,3101278,Southampton,3,0,yes
 "Ford, Mr. William Neal",16.0,male,third,34.375,W./C. 6608,Southampton,1,3,no
-"Slocovski, Mr. Selman Francis",43.8747529,male,third,8.05,SOTON/OQ 392086,Southampton,0,0,no
+"Slocovski, Mr. Selman Francis",43.9,male,third,8.05,SOTON/OQ 392086,Southampton,0,0,no
 "Fortune, Miss. Mabel Helen",23.0,female,first,263.0,19950,Southampton,3,2,yes
 "Celotti, Mr. Francesco",24.0,male,third,8.05,343275,Southampton,0,0,no
 "Christmann, Mr. Emil",29.0,male,third,8.05,343276,Southampton,0,0,no
@@ -94,21 +94,21 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Chaffee, Mr. Herbert Fuller",46.0,male,first,61.175,W.E.P. 5734,Southampton,1,0,no
 "Dean, Mr. Bertram Frank",26.0,male,third,20.575,C.A. 2315,Southampton,1,2,no
 "Coxon, Mr. Daniel",59.0,male,third,7.25,364500,Southampton,0,0,no
-"Shorney, Mr. Charles Joseph",26.24643849,male,third,8.05,374910,Southampton,0,0,no
+"Shorney, Mr. Charles Joseph",26.2,male,third,8.05,374910,Southampton,0,0,no
 "Goldschmidt, Mr. George B",71.0,male,first,34.6542,PC 17754,Cherbourg,0,0,no
 "Greenfield, Mr. William Bertram",23.0,male,first,63.3583,PC 17759,Cherbourg,0,1,yes
 "Doling, Mrs. John T (Ada Julia Bone)",34.0,female,second,23.0,231919,Southampton,0,1,yes
 "Kantor, Mr. Sinai",34.0,male,second,26.0,244367,Southampton,1,0,no
 "Petranec, Miss. Matilda",28.0,female,third,7.8958,349245,Southampton,0,0,no
-"Petroff, Mr. Pastcho (""Pentcho"")",17.07880883,male,third,7.8958,349215,Southampton,0,0,no
+"Petroff, Mr. Pastcho (""Pentcho"")",17.1,male,third,7.8958,349215,Southampton,0,0,no
 "White, Mr. Richard Frasar",21.0,male,first,77.2875,35281,Southampton,0,1,no
 "Johansson, Mr. Gustaf Joel",33.0,male,third,8.6542,7540,Southampton,0,0,no
 "Gustafsson, Mr. Anders Vilhelm",37.0,male,third,7.925,3101276,Southampton,2,0,no
 "Mionoff, Mr. Stoytcho",28.0,male,third,7.8958,349207,Southampton,0,0,no
 "Salkjelsvik, Miss. Anna Kristine",21.0,female,third,7.65,343120,Southampton,0,0,yes
-"Moss, Mr. Albert Johan",17.61871374,male,third,7.775,312991,Southampton,0,0,yes
+"Moss, Mr. Albert Johan",17.6,male,third,7.775,312991,Southampton,0,0,yes
 "Rekic, Mr. Tido",38.0,male,third,7.8958,349249,Southampton,0,0,no
-"Moran, Miss. Bertha",7.74908789,female,third,24.15,371110,Queestown,1,0,yes
+"Moran, Miss. Bertha",7.7,female,third,24.15,371110,Queestown,1,0,yes
 "Porter, Mr. Walter Chamberlain",47.0,male,first,52.0,110465,Southampton,0,0,no
 "Zabour, Miss. Hileni",14.5,female,third,14.4542,2665,Cherbourg,1,0,no
 "Barton, Mr. David John",22.0,male,third,8.05,324669,Southampton,0,0,no
@@ -120,14 +120,14 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Baxter, Mr. Quigg Edmond",24.0,male,first,247.5208,PC 17558,Cherbourg,0,1,no
 "Andersson, Miss. Ellis Anna Maria",2.0,female,third,31.275,347082,Southampton,4,2,no
 "Hickman, Mr. Stanley George",21.0,male,second,73.5,S.O.C. 14879,Southampton,2,0,no
-"Moore, Mr. Leonard Charles",39.99897263,male,third,8.05,A4. 54510,Southampton,0,0,no
+"Moore, Mr. Leonard Charles",40.0,male,third,8.05,A4. 54510,Southampton,0,0,no
 "Nasser, Mr. Nicholas",32.5,male,second,30.0708,237736,Cherbourg,1,0,no
 "Webber, Miss. Susan",32.5,female,second,13.0,27267,Southampton,0,0,yes
 "White, Mr. Percival Wayland",54.0,male,first,77.2875,35281,Southampton,0,1,no
 "Nicola-Yarred, Master. Elias",12.0,male,third,11.2417,2651,Cherbourg,1,0,yes
-"McMahon, Mr. Martin",74.26286149,male,third,7.75,370372,Queestown,0,0,no
+"McMahon, Mr. Martin",74.3,male,third,7.75,370372,Queestown,0,0,no
 "Madsen, Mr. Fridtjof Arne",24.0,male,third,7.1417,C 17369,Southampton,0,0,yes
-"Peter, Miss. Anna",10.80354165,female,third,22.3583,2668,Cherbourg,1,1,yes
+"Peter, Miss. Anna",10.8,female,third,22.3583,2668,Cherbourg,1,1,yes
 "Ekstrom, Mr. Johan",45.0,male,third,6.975,347061,Southampton,0,0,no
 "Drazenoic, Mr. Jozef",33.0,male,third,7.8958,349241,Cherbourg,0,0,no
 "Coelho, Mr. Domingos Fernandeo",20.0,male,third,7.05,SOTON/O.Q. 3101307,Southampton,0,0,no
@@ -139,7 +139,7 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Futrelle, Mr. Jacques Heath",37.0,male,first,53.1,113803,Southampton,1,0,no
 "Osen, Mr. Olaf Elon",16.0,male,third,9.2167,7534,Southampton,0,0,no
 "Giglio, Mr. Victor",24.0,male,first,79.2,PC 17593,Cherbourg,0,0,no
-"Boulos, Mrs. Joseph (Sultana)",52.27410117,female,third,15.2458,2678,Cherbourg,0,2,no
+"Boulos, Mrs. Joseph (Sultana)",52.3,female,third,15.2458,2678,Cherbourg,0,2,no
 "Nysten, Miss. Anna Sofia",22.0,female,third,7.75,347081,Southampton,0,0,yes
 "Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",24.0,female,third,15.85,STON/O2. 3101279,Southampton,1,0,yes
 "Burke, Mr. Jeremiah",19.0,male,third,6.75,365222,Queestown,0,0,no
@@ -153,21 +153,21 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Pears, Mrs. Thomas (Edith Wearne)",22.0,female,first,66.6,113776,Southampton,1,0,yes
 "Meo, Mr. Alfonzo",55.5,male,third,8.05,A.5. 11206,Southampton,0,0,no
 "van Billiard, Mr. Austin Blyler",40.5,male,third,14.5,A/5. 851,Southampton,0,2,no
-"Olsen, Mr. Ole Martin",76.87587001,male,third,7.3125,Fa 265302,Southampton,0,0,no
+"Olsen, Mr. Ole Martin",76.9,male,third,7.3125,Fa 265302,Southampton,0,0,no
 "Williams, Mr. Charles Duane",51.0,male,first,61.3792,PC 17597,Cherbourg,0,1,no
 "Gilnagh, Miss. Katherine ""Katie""",16.0,female,third,7.7333,35851,Queestown,0,0,yes
 "Corn, Mr. Harry",30.0,male,third,8.05,SOTON/OQ 392090,Southampton,0,0,no
-"Smiljanic, Mr. Mile",22.01354655,male,third,8.6625,315037,Southampton,0,0,no
-"Sage, Master. Thomas Henry",1.49411825,male,third,69.55,CA. 2343,Southampton,8,2,no
+"Smiljanic, Mr. Mile",22.0,male,third,8.6625,315037,Southampton,0,0,no
+"Sage, Master. Thomas Henry",1.5,male,third,69.55,CA. 2343,Southampton,8,2,no
 "Cribb, Mr. John Hatfield",44.0,male,third,16.1,371362,Southampton,0,1,no
 "Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)",40.0,female,second,15.75,C.A. 33595,Southampton,0,0,yes
 "Bengtsson, Mr. John Viktor",26.0,male,third,7.775,347068,Southampton,0,0,no
 "Calic, Mr. Jovo",17.0,male,third,8.6625,315093,Southampton,0,0,no
 "Panula, Master. Eino Viljami",1.0,male,third,39.6875,3101295,Southampton,4,1,no
 "Goldsmith, Master. Frank John William ""Frankie""",9.0,male,third,20.525,363291,Southampton,0,2,yes
-"Chibnall, Mrs. (Edith Martha Bowerman)",50.40733695,female,first,55.0,113505,Southampton,0,1,yes
+"Chibnall, Mrs. (Edith Martha Bowerman)",50.4,female,first,55.0,113505,Southampton,0,1,yes
 "Skoog, Mrs. William (Anna Bernhardina Karlsson)",45.0,female,third,27.9,347088,Southampton,1,4,no
-"Baumann, Mr. John D",66.54701743,male,first,25.925,PC 17318,Southampton,0,0,no
+"Baumann, Mr. John D",66.5,male,first,25.925,PC 17318,Southampton,0,0,no
 "Ling, Mr. Lee",28.0,male,third,56.4958,1601,Southampton,0,0,no
 "Van der hoef, Mr. Wyckoff",61.0,male,first,33.5,111240,Southampton,0,0,no
 "Rice, Master. Arthur",4.0,male,third,29.125,382652,Queestown,4,1,no
@@ -175,17 +175,17 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Sivola, Mr. Antti Wilhelm",21.0,male,third,7.925,STON/O 2. 3101280,Southampton,0,0,no
 "Smith, Mr. James Clinch",56.0,male,first,30.6958,17764,Cherbourg,0,0,no
 "Klasen, Mr. Klas Albin",18.0,male,third,7.8542,350404,Southampton,1,1,no
-"Lefebre, Master. Henry Forbes",55.34054513,male,third,25.4667,4133,Southampton,3,1,no
+"Lefebre, Master. Henry Forbes",55.3,male,third,25.4667,4133,Southampton,3,1,no
 "Isham, Miss. Ann Elizabeth",50.0,female,first,28.7125,PC 17595,Cherbourg,0,0,no
 "Hale, Mr. Reginald",30.0,male,second,13.0,250653,Southampton,0,0,no
 "Leonard, Mr. Lionel",36.0,male,third,0.0,LINE,Southampton,0,0,no
-"Sage, Miss. Constance Gladys",74.71321378,female,third,69.55,CA. 2343,Southampton,8,2,no
-"Pernot, Mr. Rene",5.25920319,male,second,15.05,SC/PARIS 2131,Cherbourg,0,0,no
+"Sage, Miss. Constance Gladys",74.7,female,third,69.55,CA. 2343,Southampton,8,2,no
+"Pernot, Mr. Rene",5.3,male,second,15.05,SC/PARIS 2131,Cherbourg,0,0,no
 "Asplund, Master. Clarence Gustaf Hugo",9.0,male,third,31.3875,347077,Southampton,4,2,no
 "Becker, Master. Richard F",1.0,male,second,39.0,230136,Southampton,2,1,yes
 "Kink-Heilmann, Miss. Luise Gretchen",4.0,female,third,22.025,315153,Southampton,0,2,yes
-"Rood, Mr. Hugh Roscoe",38.49321556,male,first,50.0,113767,Southampton,0,0,no
-"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",65.44311878,female,third,15.5,370365,Queestown,1,0,yes
+"Rood, Mr. Hugh Roscoe",38.5,male,first,50.0,113767,Southampton,0,0,no
+"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",65.4,female,third,15.5,370365,Queestown,1,0,yes
 "Romaine, Mr. Charles Hallace (""Mr C Rolmane"")",45.0,male,first,26.55,111428,Southampton,0,0,yes
 "Bourke, Mr. John",40.0,male,third,15.5,364849,Queestown,1,1,no
 "Turcin, Mr. Stjepan",36.0,male,third,7.8958,349247,Southampton,0,0,no
@@ -195,12 +195,12 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Navratil, Master. Michel M",3.0,male,second,26.0,230080,Southampton,1,1,yes
 "Brown, Mrs. James Joseph (Margaret Tobin)",44.0,female,first,27.7208,PC 17610,Cherbourg,0,0,yes
 "Lurette, Miss. Elise",58.0,female,first,146.5208,PC 17569,Cherbourg,0,0,yes
-"Mernagh, Mr. Robert",44.8540443,male,third,7.75,368703,Queestown,0,0,no
+"Mernagh, Mr. Robert",44.9,male,third,7.75,368703,Queestown,0,0,no
 "Olsen, Mr. Karl Siegwart Andreas",42.0,male,third,8.4042,4579,Southampton,0,1,no
-"Madigan, Miss. Margaret ""Maggie""",3.11558581,female,third,7.75,370370,Queestown,0,0,yes
+"Madigan, Miss. Margaret ""Maggie""",3.1,female,third,7.75,370370,Queestown,0,0,yes
 "Yrois, Miss. Henriette (""Mrs Harbeck"")",24.0,female,second,13.0,248747,Southampton,0,0,no
 "Vande Walle, Mr. Nestor Cyriel",28.0,male,third,9.5,345770,Southampton,0,0,no
-"Sage, Mr. Frederick",71.01147459,male,third,69.55,CA. 2343,Southampton,8,2,no
+"Sage, Mr. Frederick",71.0,male,third,69.55,CA. 2343,Southampton,8,2,no
 "Johanson, Mr. Jakob Alfred",34.0,male,third,6.4958,3101264,Southampton,0,0,no
 "Youseff, Mr. Gerious",45.5,male,third,7.225,2628,Cherbourg,0,0,no
 "Cohen, Mr. Gurshon ""Gus""",18.0,male,third,8.05,A/5 3540,Southampton,0,0,yes
@@ -213,7 +213,7 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Cameron, Miss. Clear Annie",35.0,female,second,21.0,F.C.C. 13528,Southampton,0,0,yes
 "Perkin, Mr. John Henry",22.0,male,third,7.25,A/5 21174,Southampton,0,0,no
 "Givard, Mr. Hans Kristensen",30.0,male,second,13.0,250646,Southampton,0,0,no
-"Kiernan, Mr. Philip",66.45021309,male,third,7.75,367229,Queestown,1,0,no
+"Kiernan, Mr. Philip",66.5,male,third,7.75,367229,Queestown,1,0,no
 "Newell, Miss. Madeleine",31.0,female,first,113.275,35273,Cherbourg,1,0,yes
 "Honkanen, Miss. Eliina",27.0,female,third,7.925,STON/O2. 3101283,Southampton,0,0,yes
 "Jacobsohn, Mr. Sidney Samuel",42.0,male,second,27.0,243847,Southampton,1,0,no
@@ -222,25 +222,25 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Sunderland, Mr. Victor Francis",16.0,male,third,8.05,SOTON/OQ 392089,Southampton,0,0,yes
 "Bracken, Mr. James H",27.0,male,second,13.0,220367,Southampton,0,0,no
 "Green, Mr. George Henry",51.0,male,third,8.05,21440,Southampton,0,0,no
-"Nenkoff, Mr. Christo",32.78638544,male,third,7.8958,349234,Southampton,0,0,no
+"Nenkoff, Mr. Christo",32.8,male,third,7.8958,349234,Southampton,0,0,no
 "Hoyt, Mr. Frederick Maxfield",38.0,male,first,90.0,19943,Southampton,1,0,yes
 "Berglund, Mr. Karl Ivar Sven",22.0,male,third,9.35,PP 4348,Southampton,0,0,no
 "Mellors, Mr. William John",19.0,male,second,10.5,SW/PP 751,Southampton,0,0,yes
 "Lovell, Mr. John Hall (""Henry"")",20.5,male,third,7.25,A/5 21173,Southampton,0,0,no
 "Fahlstrom, Mr. Arne Jonas",18.0,male,second,13.0,236171,Southampton,0,0,no
-"Lefebre, Miss. Mathilde",38.06492085,female,third,25.4667,4133,Southampton,3,1,no
+"Lefebre, Miss. Mathilde",38.1,female,third,25.4667,4133,Southampton,3,1,no
 "Harris, Mrs. Henry Birkhardt (Irene Wallach)",35.0,female,first,83.475,36973,Southampton,1,0,yes
 "Larsson, Mr. Bengt Edvin",29.0,male,third,7.775,347067,Southampton,0,0,no
 "Sjostedt, Mr. Ernst Adolf",59.0,male,second,13.5,237442,Southampton,0,0,no
 "Asplund, Miss. Lillian Gertrud",5.0,female,third,31.3875,347077,Southampton,4,2,yes
 "Leyson, Mr. Robert William Norman",24.0,male,second,10.5,C.A. 29566,Southampton,0,0,no
-"Harknett, Miss. Alice Phoebe",19.33696868,female,third,7.55,W./C. 6609,Southampton,0,0,no
+"Harknett, Miss. Alice Phoebe",19.3,female,third,7.55,W./C. 6609,Southampton,0,0,no
 "Hold, Mr. Stephen",44.0,male,second,26.0,26707,Southampton,1,0,no
 "Collyer, Miss. Marjorie ""Lottie""",8.0,female,second,26.25,C.A. 31921,Southampton,0,2,yes
 "Pengelly, Mr. Frederick William",19.0,male,second,10.5,28665,Southampton,0,0,no
 "Hunt, Mr. George Henry",33.0,male,second,12.275,SCO/W 1585,Southampton,0,0,no
-"Zabour, Miss. Thamine",76.97043417,female,third,14.4542,2665,Cherbourg,1,0,no
-"Murphy, Miss. Katherine ""Kate""",2.61430917,female,third,15.5,367230,Queestown,1,0,yes
+"Zabour, Miss. Thamine",77.0,female,third,14.4542,2665,Cherbourg,1,0,no
+"Murphy, Miss. Katherine ""Kate""",2.6,female,third,15.5,367230,Queestown,1,0,yes
 "Coleridge, Mr. Reginald Charles",29.0,male,second,10.5,W./C. 14263,Southampton,0,0,no
 "Maenpaa, Mr. Matti Alexanteri",22.0,male,third,7.125,STON/O 2. 3101275,Southampton,0,0,no
 "Attalah, Mr. Sleiman",30.0,male,third,7.225,2694,Cherbourg,0,0,no
@@ -249,41 +249,41 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Hamalainen, Mrs. William (Anna)",24.0,female,second,14.5,250649,Southampton,0,2,yes
 "Beckwith, Mr. Richard Leonard",37.0,male,first,52.5542,11751,Southampton,1,1,yes
 "Carter, Rev. Ernest Courtenay",54.0,male,second,26.0,244252,Southampton,1,0,no
-"Reed, Mr. James George",77.14175515,male,third,7.25,362316,Southampton,0,0,no
+"Reed, Mr. James George",77.1,male,third,7.25,362316,Southampton,0,0,no
 "Strom, Mrs. Wilhelm (Elna Matilda Persson)",29.0,female,third,10.4625,347054,Southampton,1,1,no
 "Stead, Mr. William Thomas",62.0,male,first,26.55,113514,Southampton,0,0,no
 "Lobb, Mr. William Arthur",30.0,male,third,16.1,A/5. 3336,Southampton,1,0,no
 "Rosblom, Mrs. Viktor (Helena Wilhelmina)",41.0,female,third,20.2125,370129,Southampton,0,2,no
 "Touma, Mrs. Darwis (Hanne Youssef Razi)",29.0,female,third,15.2458,2650,Cherbourg,0,2,yes
-"Thorne, Mrs. Gertrude Maybelle",48.21320985,female,first,79.2,PC 17585,Cherbourg,0,0,yes
+"Thorne, Mrs. Gertrude Maybelle",48.2,female,first,79.2,PC 17585,Cherbourg,0,0,yes
 "Cherry, Miss. Gladys",30.0,female,first,86.5,110152,Southampton,0,0,yes
 "Ward, Miss. Anna",35.0,female,first,512.3292,PC 17755,Cherbourg,0,0,yes
 "Parrish, Mrs. (Lutie Davis)",50.0,female,second,26.0,230433,Southampton,0,1,yes
-"Smith, Mr. Thomas",71.70778291,male,third,7.75,384461,Queestown,0,0,no
+"Smith, Mr. Thomas",71.7,male,third,7.75,384461,Queestown,0,0,no
 "Asplund, Master. Edvin Rojj Felix",3.0,male,third,31.3875,347077,Southampton,4,2,yes
 "Taussig, Mr. Emil",52.0,male,first,79.65,110413,Southampton,1,1,no
 "Harrison, Mr. William",40.0,male,first,0.0,112059,Southampton,0,0,no
-"Henry, Miss. Delia",64.3371818,female,third,7.75,382649,Queestown,0,0,no
+"Henry, Miss. Delia",64.3,female,third,7.75,382649,Queestown,0,0,no
 "Reeves, Mr. David",36.0,male,second,10.5,C.A. 17248,Southampton,0,0,no
 "Panula, Mr. Ernesti Arvid",16.0,male,third,39.6875,3101295,Southampton,4,1,no
 "Persson, Mr. Ernst Ulrik",25.0,male,third,7.775,347083,Southampton,1,0,yes
 "Graham, Mrs. William Thompson (Edith Junkins)",58.0,female,first,153.4625,PC 17582,Southampton,0,1,yes
 "Bissette, Miss. Amelia",35.0,female,first,135.6333,PC 17760,Southampton,0,0,yes
-"Cairns, Mr. Alexander",25.55485401,male,first,31.0,113798,Southampton,0,0,no
+"Cairns, Mr. Alexander",25.6,male,first,31.0,113798,Southampton,0,0,no
 "Tornquist, Mr. William Henry",25.0,male,third,0.0,LINE,Southampton,0,0,yes
 "Mellinger, Mrs. (Elizabeth Anne Maidment)",41.0,female,second,19.5,250644,Southampton,0,1,yes
 "Natsch, Mr. Charles H",37.0,male,first,29.7,PC 17596,Cherbourg,0,1,no
-"Healy, Miss. Hanora ""Nora""",34.70767785,female,third,7.75,370375,Queestown,0,0,yes
+"Healy, Miss. Hanora ""Nora""",34.7,female,third,7.75,370375,Queestown,0,0,yes
 "Andrews, Miss. Kornelia Theodosia",63.0,female,first,77.9583,13502,Southampton,1,0,yes
 "Lindblom, Miss. Augusta Charlotta",45.0,female,third,7.75,347073,Southampton,0,0,no
-"Parkes, Mr. Francis ""Frank""",11.12520803,male,second,0.0,239853,Southampton,0,0,no
+"Parkes, Mr. Francis ""Frank""",11.1,male,second,0.0,239853,Southampton,0,0,no
 "Rice, Master. Eric",7.0,male,third,29.125,382652,Queestown,4,1,no
 "Abbott, Mrs. Stanton (Rosa Hunt)",35.0,female,third,20.25,C.A. 2673,Southampton,1,1,yes
 "Duane, Mr. Frank",65.0,male,third,7.75,336439,Queestown,0,0,no
 "Olsson, Mr. Nils Johan Goransson",28.0,male,third,7.8542,347464,Southampton,0,0,no
 "de Pelsmaeker, Mr. Alfons",16.0,male,third,9.5,345778,Southampton,0,0,no
 "Dorking, Mr. Edward Arthur",19.0,male,third,8.05,A/5. 10482,Southampton,0,0,yes
-"Smith, Mr. Richard William",4.08390278,male,first,26.0,113056,Southampton,0,0,no
+"Smith, Mr. Richard William",4.1,male,first,26.0,113056,Southampton,0,0,no
 "Stankovic, Mr. Ivan",33.0,male,third,8.6625,349239,Cherbourg,0,0,no
 "de Mulder, Mr. Theodore",30.0,male,third,9.5,345774,Southampton,0,0,yes
 "Naidenoff, Mr. Penko",22.0,male,third,7.8958,349206,Southampton,0,0,no
@@ -294,18 +294,18 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Levy, Mr. Rene Jacques",36.0,male,second,12.875,SC/Paris 2163,Cherbourg,0,0,no
 "Haas, Miss. Aloisia",24.0,female,third,8.85,349236,Southampton,0,0,no
 "Mineff, Mr. Ivan",24.0,male,third,7.8958,349233,Southampton,0,0,no
-"Lewy, Mr. Ervin G",5.45671369,male,first,27.7208,PC 17612,Cherbourg,0,0,no
+"Lewy, Mr. Ervin G",5.5,male,first,27.7208,PC 17612,Cherbourg,0,0,no
 "Hanna, Mr. Mansour",23.5,male,third,7.2292,2693,Cherbourg,0,0,no
 "Allison, Miss. Helen Loraine",2.0,female,first,151.55,113781,Southampton,1,2,no
-"Saalfeld, Mr. Adolphe",74.14639767,male,first,30.5,19988,Southampton,0,0,yes
+"Saalfeld, Mr. Adolphe",74.1,male,first,30.5,19988,Southampton,0,0,yes
 "Baxter, Mrs. James (Helene DeLaudeniere Chaput)",50.0,female,first,247.5208,PC 17558,Cherbourg,0,1,yes
-"Kelly, Miss. Anna Katherine ""Annie Kate""",19.37978725,female,third,7.75,9234,Queestown,0,0,yes
-"McCoy, Mr. Bernard",12.30581713,male,third,23.25,367226,Queestown,2,0,yes
+"Kelly, Miss. Anna Katherine ""Annie Kate""",19.4,female,third,7.75,9234,Queestown,0,0,yes
+"McCoy, Mr. Bernard",12.3,male,third,23.25,367226,Queestown,2,0,yes
 "Johnson, Mr. William Cahoone Jr",19.0,male,third,0.0,LINE,Southampton,0,0,no
-"Keane, Miss. Nora A",13.17495576,female,second,12.35,226593,Queestown,0,0,yes
-"Williams, Mr. Howard Hugh ""Harry""",56.22337203,male,third,8.05,A/5 2466,Southampton,0,0,no
+"Keane, Miss. Nora A",13.2,female,second,12.35,226593,Queestown,0,0,yes
+"Williams, Mr. Howard Hugh ""Harry""",56.2,male,third,8.05,A/5 2466,Southampton,0,0,no
 "Allison, Master. Hudson Trevor",0.92,male,first,151.55,113781,Southampton,1,2,yes
-"Fleming, Miss. Margaret",50.23990028,female,first,110.8833,17421,Cherbourg,0,0,yes
+"Fleming, Miss. Margaret",50.2,female,first,110.8833,17421,Cherbourg,0,0,yes
 "Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)",17.0,female,first,108.9,PC 17758,Cherbourg,1,0,yes
 "Abelson, Mr. Samuel",30.0,male,second,24.0,P/PP 3381,Cherbourg,1,0,no
 "Francatelli, Miss. Laura Mabel",30.0,female,first,56.9292,PC 17485,Cherbourg,0,0,yes
@@ -323,18 +323,18 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Danoff, Mr. Yoto",27.0,male,third,7.8958,349219,Southampton,0,0,no
 "Slayter, Miss. Hilda Mary",30.0,female,second,12.35,234818,Queestown,0,0,yes
 "Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)",22.0,female,second,29.0,248738,Southampton,1,1,yes
-"Sage, Mr. George John Jr",76.3119208,male,third,69.55,CA. 2343,Southampton,8,2,no
+"Sage, Mr. George John Jr",76.3,male,third,69.55,CA. 2343,Southampton,8,2,no
 "Young, Miss. Marie Grice",36.0,female,first,135.6333,PC 17760,Cherbourg,0,0,yes
 "Nysveen, Mr. Johan Hansen",61.0,male,third,6.2375,345364,Southampton,0,0,no
 "Ball, Mrs. (Ada E Hall)",36.0,female,second,13.0,28551,Southampton,0,0,yes
 "Goldsmith, Mrs. Frank John (Emily Alice Brown)",31.0,female,third,20.525,363291,Southampton,1,1,yes
 "Hippach, Miss. Jean Gertrude",16.0,female,first,57.9792,111361,Cherbourg,0,1,yes
-"McCoy, Miss. Agnes",14.14174557,female,third,23.25,367226,Queestown,2,0,yes
+"McCoy, Miss. Agnes",14.1,female,third,23.25,367226,Queestown,2,0,yes
 "Partner, Mr. Austen",45.5,male,first,28.5,113043,Southampton,0,0,no
 "Graham, Mr. George Edward",38.0,male,first,153.4625,PC 17582,Southampton,0,1,no
 "Vander Planke, Mr. Leo Edmondus",16.0,male,third,18.0,345764,Southampton,2,0,no
-"Frauenthal, Mrs. Henry William (Clara Heinsheimer)",8.06574175,female,first,133.65,PC 17611,Southampton,1,0,yes
-"Denkoff, Mr. Mitto",61.41956351,male,third,7.8958,349225,Southampton,0,0,no
+"Frauenthal, Mrs. Henry William (Clara Heinsheimer)",8.1,female,first,133.65,PC 17611,Southampton,1,0,yes
+"Denkoff, Mr. Mitto",61.4,male,third,7.8958,349225,Southampton,0,0,no
 "Pears, Mr. Thomas Clinton",29.0,male,first,66.6,113776,Southampton,1,0,no
 "Burns, Miss. Elizabeth Margaret",41.0,female,first,134.5,16966,Cherbourg,0,0,yes
 "Dahl, Mr. Karl Edwart",45.0,male,third,8.05,7598,Southampton,0,0,yes
@@ -346,35 +346,35 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Fox, Mr. Stanley Hubert",36.0,male,second,13.0,229236,Southampton,0,0,no
 "Brown, Miss. Amelia ""Mildred""",24.0,female,second,13.0,248733,Southampton,0,0,yes
 "Smith, Miss. Marion Elsie",40.0,female,second,13.0,31418,Southampton,0,0,yes
-"Davison, Mrs. Thomas Henry (Mary E Finck)",20.49666319,female,third,16.1,386525,Southampton,1,0,yes
+"Davison, Mrs. Thomas Henry (Mary E Finck)",20.5,female,third,16.1,386525,Southampton,1,0,yes
 "Coutts, Master. William Loch ""William""",3.0,male,third,15.9,C.A. 37671,Southampton,1,1,yes
 "Dimic, Mr. Jovan",42.0,male,third,8.6625,315088,Southampton,0,0,no
 "Odahl, Mr. Nils Martin",23.0,male,third,9.225,7267,Southampton,0,0,no
-"Williams-Lambert, Mr. Fletcher Fellows",46.07275802,male,first,35.0,113510,Southampton,0,0,no
+"Williams-Lambert, Mr. Fletcher Fellows",46.1,male,first,35.0,113510,Southampton,0,0,no
 "Elias, Mr. Tannous",15.0,male,third,7.2292,2695,Cherbourg,1,1,no
 "Arnold-Franchi, Mr. Josef",25.0,male,third,17.8,349237,Southampton,1,0,no
-"Yousif, Mr. Wazli",78.26326336,male,third,7.225,2647,Cherbourg,0,0,no
+"Yousif, Mr. Wazli",78.3,male,third,7.225,2647,Cherbourg,0,0,no
 "Vanden Steen, Mr. Leo Peter",28.0,male,third,9.5,345783,Southampton,0,0,no
 "Bowerman, Miss. Elsie Edith",22.0,female,first,55.0,113505,Southampton,0,1,yes
 "Funk, Miss. Annie Clemmer",38.0,female,second,13.0,237671,Southampton,0,0,no
-"McGovern, Miss. Mary",53.34291235,female,third,7.8792,330931,Queestown,0,0,yes
-"Mockler, Miss. Helen Mary ""Ellie""",27.00447996,female,third,7.8792,330980,Queestown,0,0,yes
+"McGovern, Miss. Mary",53.3,female,third,7.8792,330931,Queestown,0,0,yes
+"Mockler, Miss. Helen Mary ""Ellie""",27.0,female,third,7.8792,330980,Queestown,0,0,yes
 "Skoog, Mr. Wilhelm",40.0,male,third,27.9,347088,Southampton,1,4,no
 "del Carlo, Mr. Sebastiano",29.0,male,second,27.7208,SC/PARIS 2167,Cherbourg,1,0,no
 "Barbara, Mrs. (Catherine David)",45.0,female,third,14.4542,2691,Cherbourg,0,1,no
 "Asim, Mr. Adola",35.0,male,third,7.05,SOTON/O.Q. 3101310,Southampton,0,0,no
-"O'Brien, Mr. Thomas",48.51083118,male,third,15.5,370365,Queestown,1,0,no
+"O'Brien, Mr. Thomas",48.5,male,third,15.5,370365,Queestown,1,0,no
 "Adahl, Mr. Mauritz Nils Martin",30.0,male,third,7.25,C 7076,Southampton,0,0,no
 "Warren, Mrs. Frank Manley (Anna Sophia Atkinson)",60.0,female,first,75.25,110813,Cherbourg,1,0,yes
-"Moussa, Mrs. (Mantoura Boulos)",7.92562105,female,third,7.2292,2626,Cherbourg,0,0,yes
-"Jermyn, Miss. Annie",3.89618346,female,third,7.75,14313,Queestown,0,0,yes
+"Moussa, Mrs. (Mantoura Boulos)",7.9,female,third,7.2292,2626,Cherbourg,0,0,yes
+"Jermyn, Miss. Annie",3.9,female,third,7.75,14313,Queestown,0,0,yes
 "Aubart, Mme. Leontine Pauline",24.0,female,first,69.3,PC 17477,Cherbourg,0,0,yes
 "Harder, Mr. George Achilles",25.0,male,first,55.4417,11765,Cherbourg,1,0,yes
 "Wiklund, Mr. Jakob Alfred",18.0,male,third,6.4958,3101267,Southampton,1,0,no
 "Beavan, Mr. William Thomas",19.0,male,third,8.05,323951,Southampton,0,0,no
 "Ringhini, Mr. Sante",22.0,male,first,135.6333,PC 17760,Cherbourg,0,0,no
 "Palsson, Miss. Stina Viola",3.0,female,third,21.075,349909,Southampton,3,1,no
-"Meyer, Mrs. Edgar Joseph (Leila Saks)",62.86036329,female,first,82.1708,PC 17604,Cherbourg,1,0,yes
+"Meyer, Mrs. Edgar Joseph (Leila Saks)",62.9,female,first,82.1708,PC 17604,Cherbourg,1,0,yes
 "Landergren, Miss. Aurora Adelia",22.0,female,third,7.25,C 7077,Southampton,0,0,yes
 "Widener, Mr. Harry Elkins",27.0,male,first,211.5,113503,Cherbourg,0,2,no
 "Betros, Mr. Tannous",20.0,male,third,4.0125,2648,Cherbourg,0,0,no
@@ -383,11 +383,11 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Nakid, Miss. Maria (""Mary"")",1.0,female,third,15.7417,2653,Cherbourg,0,2,yes
 "Tikkanen, Mr. Juho",32.0,male,third,7.925,STON/O 2. 3101293,Southampton,0,0,no
 "Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",35.0,female,first,52.0,113789,Southampton,1,0,yes
-"Plotcharsky, Mr. Vasil",1.56955051,male,third,7.8958,349227,Southampton,0,0,no
+"Plotcharsky, Mr. Vasil",1.6,male,third,7.8958,349227,Southampton,0,0,no
 "Davies, Mr. Charles Henry",18.0,male,second,73.5,S.O.C. 14879,Southampton,0,0,no
 "Goodwin, Master. Sidney Leonard",1.0,male,third,46.9,CA 2144,Southampton,5,2,no
 "Buss, Miss. Kate",36.0,female,second,13.0,27849,Southampton,0,0,yes
-"Sadlier, Mr. Matthew",52.1759369,male,third,7.7292,367655,Queestown,0,0,no
+"Sadlier, Mr. Matthew",52.2,male,third,7.7292,367655,Queestown,0,0,no
 "Lehmann, Miss. Bertha",17.0,female,second,12.0,SC 1748,Cherbourg,0,0,yes
 "Carter, Mr. William Ernest",36.0,male,first,120.0,113760,Southampton,1,2,yes
 "Jansson, Mr. Carl Olof",21.0,male,third,7.7958,350034,Southampton,0,0,yes
@@ -408,29 +408,29 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Widegren, Mr. Carl/Charles Peter",51.0,male,third,7.75,347064,Southampton,0,0,no
 "Richards, Master. William Rowe",3.0,male,second,18.75,29106,Southampton,1,1,yes
 "Birkeland, Mr. Hans Martin Monsen",21.0,male,third,7.775,312992,Southampton,0,0,no
-"Lefebre, Miss. Ida",72.28272872,female,third,25.4667,4133,Southampton,3,1,no
-"Sdycoff, Mr. Todor",22.20834428,male,third,7.8958,349222,Southampton,0,0,no
-"Hart, Mr. Henry",16.63525525,male,third,6.8583,394140,Queestown,0,0,no
+"Lefebre, Miss. Ida",72.3,female,third,25.4667,4133,Southampton,3,1,no
+"Sdycoff, Mr. Todor",22.2,male,third,7.8958,349222,Southampton,0,0,no
+"Hart, Mr. Henry",16.6,male,third,6.8583,394140,Queestown,0,0,no
 "Minahan, Miss. Daisy E",33.0,female,first,90.0,19928,Queestown,1,0,yes
-"Cunningham, Mr. Alfred Fleming",47.5165373,male,second,0.0,239853,Southampton,0,0,no
+"Cunningham, Mr. Alfred Fleming",47.5,male,second,0.0,239853,Southampton,0,0,no
 "Sundman, Mr. Johan Julian",44.0,male,third,7.925,STON/O 2. 3101269,Southampton,0,0,yes
-"Meek, Mrs. Thomas (Annie Louise Rowley)",8.91606123,female,third,8.05,343095,Southampton,0,0,no
+"Meek, Mrs. Thomas (Annie Louise Rowley)",8.9,female,third,8.05,343095,Southampton,0,0,no
 "Drew, Mrs. James Vivian (Lulu Thorne Christian)",34.0,female,second,32.5,28220,Southampton,1,1,yes
 "Silven, Miss. Lyyli Karoliina",18.0,female,second,13.0,250652,Southampton,0,2,yes
 "Matthews, Mr. William John",30.0,male,second,13.0,28228,Southampton,0,0,no
 "Van Impe, Miss. Catharina",10.0,female,third,24.15,345773,Southampton,0,2,no
-"Gheorgheff, Mr. Stanio",18.88227844,male,third,7.8958,349254,Cherbourg,0,0,no
+"Gheorgheff, Mr. Stanio",18.9,male,third,7.8958,349254,Cherbourg,0,0,no
 "Charters, Mr. David",21.0,male,third,7.7333,A/5. 13032,Queestown,0,0,no
 "Zimmerman, Mr. Leo",29.0,male,third,7.875,315082,Southampton,0,0,no
 "Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",28.0,female,third,14.4,347080,Southampton,1,1,no
 "Rosblom, Mr. Viktor Richard",18.0,male,third,20.2125,370129,Southampton,1,1,no
-"Wiseman, Mr. Phillippe",12.4487666,male,third,7.25,A/4. 34244,Southampton,0,0,no
+"Wiseman, Mr. Phillippe",12.4,male,third,7.25,A/4. 34244,Southampton,0,0,no
 "Clarke, Mrs. Charles V (Ada Maria Winfield)",28.0,female,second,26.0,2003,Southampton,1,0,yes
 "Phillips, Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")",19.0,female,second,26.0,250655,Southampton,0,0,yes
-"Flynn, Mr. James",33.56788634,male,third,7.75,364851,Queestown,0,0,no
+"Flynn, Mr. James",33.6,male,third,7.75,364851,Queestown,0,0,no
 "Pickard, Mr. Berk (Berk Trembisky)",32.0,male,third,8.05,SOTON/O.Q. 392078,Southampton,0,0,yes
 "Bjornstrom-Steffansson, Mr. Mauritz Hakan",28.0,male,first,26.55,110564,Southampton,0,0,yes
-"Thorneycroft, Mrs. Percival (Florence Kate White)",6.58207188,female,third,16.1,376564,Southampton,1,0,yes
+"Thorneycroft, Mrs. Percival (Florence Kate White)",6.6,female,third,16.1,376564,Southampton,1,0,yes
 "Louch, Mrs. Charles Alexander (Alice Adelaide Slow)",42.0,female,second,26.0,SC/AH 3085,Southampton,1,0,yes
 "Kallio, Mr. Nikolai Erland",17.0,male,third,7.125,STON/O 2. 3101274,Southampton,0,0,no
 "Silvey, Mr. William Baird",50.0,male,first,55.9,13507,Southampton,1,0,no
@@ -443,101 +443,101 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Hampe, Mr. Leon",20.0,male,third,9.5,345769,Southampton,0,0,no
 "Petterson, Mr. Johan Emil",25.0,male,third,7.775,347076,Southampton,1,0,no
 "Reynaldo, Ms. Encarnacion",28.0,female,second,13.0,230434,Southampton,0,0,yes
-"Johannesen-Bratthammer, Mr. Bernt",75.81323994,male,third,8.1125,65306,Southampton,0,0,yes
+"Johannesen-Bratthammer, Mr. Bernt",75.8,male,third,8.1125,65306,Southampton,0,0,yes
 "Dodge, Master. Washington",4.0,male,first,81.8583,33638,Southampton,0,2,yes
 "Mellinger, Miss. Madeleine Violet",13.0,female,second,19.5,250644,Southampton,0,1,yes
 "Seward, Mr. Frederic Kimber",34.0,male,first,26.55,113794,Southampton,0,0,yes
 "Baclini, Miss. Marie Catherine",5.0,female,third,19.2583,2666,Cherbourg,2,1,yes
 "Peuchen, Major. Arthur Godfrey",52.0,male,first,30.5,113786,Southampton,0,0,yes
 "West, Mr. Edwy Arthur",36.0,male,second,27.75,C.A. 34651,Southampton,1,2,no
-"Hagland, Mr. Ingvald Olai Olsen",2.61378813,male,third,19.9667,65303,Southampton,1,0,no
+"Hagland, Mr. Ingvald Olai Olsen",2.6,male,third,19.9667,65303,Southampton,1,0,no
 "Foreman, Mr. Benjamin Laventall",30.0,male,first,27.75,113051,Cherbourg,0,0,no
 "Goldenberg, Mr. Samuel L",49.0,male,first,89.1042,17453,Cherbourg,1,0,yes
-"Peduzzi, Mr. Joseph",62.1974029,male,third,8.05,A/5 2817,Southampton,0,0,no
+"Peduzzi, Mr. Joseph",62.2,male,third,8.05,A/5 2817,Southampton,0,0,no
 "Jalsevac, Mr. Ivan",29.0,male,third,7.8958,349240,Cherbourg,0,0,yes
 "Millet, Mr. Francis Davis",65.0,male,first,26.55,13509,Southampton,0,0,no
-"Kenyon, Mrs. Frederick R (Marion)",8.05424188,female,first,51.8625,17464,Southampton,1,0,yes
+"Kenyon, Mrs. Frederick R (Marion)",8.1,female,first,51.8625,17464,Southampton,1,0,yes
 "Toomey, Miss. Ellen",50.0,female,second,10.5,F.C.C. 13531,Southampton,0,0,yes
-"O'Connor, Mr. Maurice",49.78472697,male,third,7.75,371060,Queestown,0,0,no
+"O'Connor, Mr. Maurice",49.8,male,third,7.75,371060,Queestown,0,0,no
 "Anderson, Mr. Harry",48.0,male,first,26.55,19952,Southampton,0,0,yes
 "Morley, Mr. William",34.0,male,third,8.05,364506,Southampton,0,0,no
 "Gee, Mr. Arthur H",47.0,male,first,38.5,111320,Southampton,0,0,no
 "Milling, Mr. Jacob Christian",48.0,male,second,13.0,234360,Southampton,0,0,no
-"Maisner, Mr. Simon",64.98693829,male,third,8.05,A/S 2816,Southampton,0,0,no
+"Maisner, Mr. Simon",65.0,male,third,8.05,A/S 2816,Southampton,0,0,no
 "Goncalves, Mr. Manuel Estanslas",38.0,male,third,7.05,SOTON/O.Q. 3101306,Southampton,0,0,no
-"Campbell, Mr. William",7.90728644,male,second,0.0,239853,Southampton,0,0,no
+"Campbell, Mr. William",7.9,male,second,0.0,239853,Southampton,0,0,no
 "Smart, Mr. John Montgomery",56.0,male,first,26.55,113792,Southampton,0,0,no
-"Scanlan, Mr. James",29.08444469,male,third,7.725,36209,Queestown,0,0,no
+"Scanlan, Mr. James",29.1,male,third,7.725,36209,Queestown,0,0,no
 "Baclini, Miss. Helene Barbara",0.75,female,third,19.2583,2666,Cherbourg,2,1,yes
-"Keefe, Mr. Arthur",10.74244298,male,third,7.25,323592,Southampton,0,0,no
+"Keefe, Mr. Arthur",10.7,male,third,7.25,323592,Southampton,0,0,no
 "Cacic, Mr. Luka",38.0,male,third,8.6625,315089,Southampton,0,0,no
 "West, Mrs. Edwy Arthur (Ada Mary Worth)",33.0,female,second,27.75,C.A. 34651,Southampton,1,2,yes
 "Jerwan, Mrs. Amin S (Marie Marthe Thuillard)",23.0,female,second,13.7917,SC/AH Basle 541,Cherbourg,0,0,yes
 "Strandberg, Miss. Ida Sofia",22.0,female,third,9.8375,7553,Southampton,0,0,no
-"Clifford, Mr. George Quincy",42.05763065,male,first,52.0,110465,Southampton,0,0,no
+"Clifford, Mr. George Quincy",42.1,male,first,52.0,110465,Southampton,0,0,no
 "Renouf, Mr. Peter Henry",34.0,male,second,21.0,31027,Southampton,1,0,no
 "Braund, Mr. Lewis Richard",29.0,male,third,7.0458,3460,Southampton,1,0,no
 "Karlsson, Mr. Nils August",22.0,male,third,7.5208,350060,Southampton,0,0,no
 "Hirvonen, Miss. Hildur E",2.0,female,third,12.2875,3101298,Southampton,0,1,yes
 "Goodwin, Master. Harold Victor",9.0,male,third,46.9,CA 2144,Southampton,5,2,no
-"Frost, Mr. Anthony Wood ""Archie""",46.96726314,male,second,0.0,239854,Southampton,0,0,no
+"Frost, Mr. Anthony Wood ""Archie""",47.0,male,second,0.0,239854,Southampton,0,0,no
 "Rouse, Mr. Richard Henry",50.0,male,third,8.05,A/5 3594,Southampton,0,0,no
 "Turkula, Mrs. (Hedwig)",63.0,female,third,9.5875,4134,Southampton,0,0,yes
 "Bishop, Mr. Dickinson H",25.0,male,first,91.0792,11967,Cherbourg,1,0,yes
-"Lefebre, Miss. Jeannie",33.1789131,female,third,25.4667,4133,Southampton,3,1,no
+"Lefebre, Miss. Jeannie",33.2,female,third,25.4667,4133,Southampton,3,1,no
 "Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)",35.0,female,first,90.0,19943,Southampton,1,0,yes
 "Kent, Mr. Edward Austin",58.0,male,first,29.7,11771,Cherbourg,0,0,no
 "Somerton, Mr. Francis William",30.0,male,third,8.05,A.5. 18509,Southampton,0,0,no
 "Coutts, Master. Eden Leslie ""Neville""",9.0,male,third,15.9,C.A. 37671,Southampton,1,1,yes
-"Hagland, Mr. Konrad Mathias Reiersen",54.25548294,male,third,19.9667,65304,Southampton,1,0,no
+"Hagland, Mr. Konrad Mathias Reiersen",54.3,male,third,19.9667,65304,Southampton,1,0,no
 "Windelov, Mr. Einar",21.0,male,third,7.25,SOTON/OQ 3101317,Southampton,0,0,no
 "Molson, Mr. Harry Markland",55.0,male,first,30.5,113787,Southampton,0,0,no
 "Artagaveytia, Mr. Ramon",71.0,male,first,49.5042,PC 17609,Cherbourg,0,0,no
 "Stanley, Mr. Edward Roland",21.0,male,third,8.05,A/4 45380,Southampton,0,0,no
-"Yousseff, Mr. Gerious",15.87982563,male,third,14.4583,2627,Cherbourg,0,0,no
+"Yousseff, Mr. Gerious",15.9,male,third,14.4583,2627,Cherbourg,0,0,no
 "Eustis, Miss. Elizabeth Mussey",54.0,female,first,78.2667,36947,Cherbourg,1,0,yes
-"Shellard, Mr. Frederick William",40.14112005,male,third,15.1,C.A. 6212,Southampton,0,0,no
+"Shellard, Mr. Frederick William",40.1,male,third,15.1,C.A. 6212,Southampton,0,0,no
 "Allison, Mrs. Hudson J C (Bessie Waldo Daniels)",25.0,female,first,151.55,113781,Southampton,1,2,no
 "Svensson, Mr. Olof",24.0,male,third,7.7958,350035,Southampton,0,0,no
 "Calic, Mr. Petar",17.0,male,third,8.6625,315086,Southampton,0,0,no
 "Canavan, Miss. Mary",21.0,female,third,7.75,364846,Queestown,0,0,no
-"O'Sullivan, Miss. Bridget Mary",61.96118333,female,third,7.6292,330909,Queestown,0,0,no
+"O'Sullivan, Miss. Bridget Mary",62.0,female,third,7.6292,330909,Queestown,0,0,no
 "Laitinen, Miss. Kristina Sofia",37.0,female,third,9.5875,4135,Southampton,0,0,no
 "Maioni, Miss. Roberta",16.0,female,first,86.5,110152,Southampton,0,0,yes
 "Penasco y Castellana, Mr. Victor de Satode",18.0,male,first,108.9,PC 17758,Cherbourg,1,0,no
 "Quick, Mrs. Frederick Charles (Jane Richards)",33.0,female,second,26.0,26360,Southampton,0,2,yes
-"Bradley, Mr. George (""George Arthur Brayton"")",77.55642527,male,first,26.55,111427,Southampton,0,0,yes
+"Bradley, Mr. George (""George Arthur Brayton"")",77.6,male,first,26.55,111427,Southampton,0,0,yes
 "Olsen, Mr. Henry Margido",28.0,male,third,22.525,C 4001,Southampton,0,0,no
 "Lang, Mr. Fang",26.0,male,third,56.4958,1601,Southampton,0,0,yes
 "Daly, Mr. Eugene Patrick",29.0,male,third,7.75,382651,Queestown,0,0,yes
-"Webber, Mr. James",31.78330007,male,third,8.05,SOTON/OQ 3101316,Southampton,0,0,no
+"Webber, Mr. James",31.8,male,third,8.05,SOTON/OQ 3101316,Southampton,0,0,no
 "McGough, Mr. James Robert",36.0,male,first,26.2875,PC 17473,Southampton,0,0,yes
 "Rothschild, Mrs. Martin (Elizabeth L. Barrett)",54.0,female,first,59.4,PC 17603,Cherbourg,1,0,yes
 "Coleff, Mr. Satio",24.0,male,third,7.4958,349209,Southampton,0,0,no
 "Walker, Mr. William Anderson",47.0,male,first,34.0208,36967,Southampton,0,0,no
 "Lemore, Mrs. (Amelia Milley)",34.0,female,second,10.5,C.A. 34260,Southampton,0,0,yes
-"Ryan, Mr. Patrick",18.8056585,male,third,24.15,371110,Queestown,0,0,no
+"Ryan, Mr. Patrick",18.8,male,third,24.15,371110,Queestown,0,0,no
 "Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)",36.0,female,second,26.0,226875,Southampton,1,0,yes
 "Pavlovic, Mr. Stefo",32.0,male,third,7.8958,349242,Southampton,0,0,no
 "Perreault, Miss. Anne",30.0,female,first,93.5,12749,Southampton,0,0,yes
 "Vovk, Mr. Janko",22.0,male,third,7.8958,349252,Southampton,0,0,no
-"Lahoud, Mr. Sarkis",62.56353226,male,third,7.225,2624,Cherbourg,0,0,no
+"Lahoud, Mr. Sarkis",62.6,male,third,7.225,2624,Cherbourg,0,0,no
 "Hippach, Mrs. Louis Albert (Ida Sophia Fischer)",44.0,female,first,57.9792,111361,Cherbourg,0,1,yes
-"Kassem, Mr. Fared",13.20402122,male,third,7.2292,2700,Cherbourg,0,0,no
+"Kassem, Mr. Fared",13.2,male,third,7.2292,2700,Cherbourg,0,0,no
 "Farrell, Mr. James",40.5,male,third,7.75,367232,Queestown,0,0,no
 "Ridsdale, Miss. Lucy",50.0,female,second,10.5,W./C. 14258,Southampton,0,0,yes
-"Farthing, Mr. John",75.65677189,male,first,221.7792,PC 17483,Southampton,0,0,no
+"Farthing, Mr. John",75.7,male,first,221.7792,PC 17483,Southampton,0,0,no
 "Salonen, Mr. Johan Werner",39.0,male,third,7.925,3101296,Southampton,0,0,no
 "Hocking, Mr. Richard George",23.0,male,second,11.5,29104,Southampton,2,1,no
 "Quick, Miss. Phyllis May",2.0,female,second,26.0,26360,Southampton,1,1,yes
-"Toufik, Mr. Nakli",62.70643253,male,third,7.2292,2641,Cherbourg,0,0,no
+"Toufik, Mr. Nakli",62.7,male,third,7.2292,2641,Cherbourg,0,0,no
 "Elias, Mr. Joseph Jr",17.0,male,third,7.2292,2690,Cherbourg,1,1,no
-"Peter, Mrs. Catherine (Catherine Rizk)",66.37757126,female,third,22.3583,2668,Cherbourg,0,2,yes
+"Peter, Mrs. Catherine (Catherine Rizk)",66.4,female,third,22.3583,2668,Cherbourg,0,2,yes
 "Cacic, Miss. Marija",30.0,female,third,8.6625,315084,Southampton,0,0,no
 "Hart, Miss. Eva Miriam",7.0,female,second,26.25,F.C.C. 13529,Southampton,0,2,yes
 "Butt, Major. Archibald Willingham",45.0,male,first,26.55,113050,Southampton,0,0,no
 "LeRoy, Miss. Bertha",30.0,female,first,106.425,PC 17761,Cherbourg,0,0,yes
-"Risien, Mr. Samuel Beard",15.15237538,male,third,14.5,364498,Southampton,0,0,no
+"Risien, Mr. Samuel Beard",15.2,male,third,14.5,364498,Southampton,0,0,no
 "Frolicher, Miss. Hedwig Margaritha",22.0,female,first,49.5,13568,Cherbourg,0,2,yes
 "Crosby, Miss. Harriet R",36.0,female,first,71.0,WE/P 5735,Southampton,0,2,yes
 "Andersson, Miss. Ingeborg Constanzia",9.0,female,third,31.275,347082,Southampton,4,2,no
@@ -546,62 +546,62 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Douglas, Mr. Walter Donald",50.0,male,first,106.425,PC 17761,Cherbourg,1,0,no
 "Nicholson, Mr. Arthur Ernest",64.0,male,first,26.0,693,Southampton,0,0,no
 "Beane, Mrs. Edward (Ethel Clarke)",19.0,female,second,26.0,2908,Southampton,1,0,yes
-"Padro y Manent, Mr. Julian",19.09705288,male,second,13.8625,SC/PARIS 2146,Cherbourg,0,0,yes
+"Padro y Manent, Mr. Julian",19.1,male,second,13.8625,SC/PARIS 2146,Cherbourg,0,0,yes
 "Goldsmith, Mr. Frank John",33.0,male,third,20.525,363291,Southampton,1,1,no
 "Davies, Master. John Morgan Jr",8.0,male,second,36.75,C.A. 33112,Southampton,1,1,yes
 "Thayer, Mr. John Borland Jr",17.0,male,first,110.8833,17421,Cherbourg,0,2,yes
 "Sharp, Mr. Percival James R",27.0,male,second,26.0,244358,Southampton,0,0,no
-"O'Brien, Mr. Timothy",33.35795617,male,third,7.8292,330979,Queestown,0,0,no
+"O'Brien, Mr. Timothy",33.4,male,third,7.8292,330979,Queestown,0,0,no
 "Leeni, Mr. Fahim (""Philip Zenni"")",22.0,male,third,7.225,2620,Cherbourg,0,0,yes
 "Ohman, Miss. Velin",22.0,female,third,7.775,347085,Southampton,0,0,yes
 "Wright, Mr. George",62.0,male,first,26.55,113807,Southampton,0,0,no
 "Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",48.0,female,first,39.6,11755,Cherbourg,1,0,yes
-"Robbins, Mr. Victor",52.71780435,male,first,227.525,PC 17757,Cherbourg,0,0,no
+"Robbins, Mr. Victor",52.7,male,first,227.525,PC 17757,Cherbourg,0,0,no
 "Taussig, Mrs. Emil (Tillie Mandelbaum)",39.0,female,first,79.65,110413,Southampton,1,1,yes
 "de Messemaeker, Mrs. Guillaume Joseph (Emma)",36.0,female,third,17.4,345572,Southampton,1,0,yes
-"Morrow, Mr. Thomas Rowan",40.5940233,male,third,7.75,372622,Queestown,0,0,no
+"Morrow, Mr. Thomas Rowan",40.6,male,third,7.75,372622,Queestown,0,0,no
 "Sivic, Mr. Husein",40.0,male,third,7.8958,349251,Southampton,0,0,no
 "Norman, Mr. Robert Douglas",28.0,male,second,13.5,218629,Southampton,0,0,no
-"Simmons, Mr. John",32.31375557,male,third,8.05,SOTON/OQ 392082,Southampton,0,0,no
-"Meanwell, Miss. (Marion Ogden)",23.83276452,female,third,8.05,SOTON/O.Q. 392087,Southampton,0,0,no
+"Simmons, Mr. John",32.3,male,third,8.05,SOTON/OQ 392082,Southampton,0,0,no
+"Meanwell, Miss. (Marion Ogden)",23.8,female,third,8.05,SOTON/O.Q. 392087,Southampton,0,0,no
 "Davies, Mr. Alfred J",24.0,male,third,24.15,A/4 48871,Southampton,2,0,no
 "Stoytcheff, Mr. Ilia",19.0,male,third,7.8958,349205,Southampton,0,0,no
 "Palsson, Mrs. Nils (Alma Cornelia Berglund)",29.0,female,third,21.075,349909,Southampton,0,4,no
-"Doharr, Mr. Tannous",16.36828367,male,third,7.2292,2686,Cherbourg,0,0,no
+"Doharr, Mr. Tannous",16.4,male,third,7.2292,2686,Cherbourg,0,0,no
 "Jonsson, Mr. Carl",32.0,male,third,7.8542,350417,Southampton,0,0,yes
 "Harris, Mr. George",62.0,male,second,10.5,S.W./PP 752,Southampton,0,0,yes
 "Appleton, Mrs. Edward Dale (Charlotte Lamson)",53.0,female,first,51.4792,11769,Southampton,2,0,yes
 "Flynn, Mr. John Irwin (""Irving"")",36.0,male,first,26.3875,PC 17474,Southampton,0,0,yes
-"Kelly, Miss. Mary",67.40823125,female,third,7.75,14312,Queestown,0,0,yes
+"Kelly, Miss. Mary",67.4,female,third,7.75,14312,Queestown,0,0,yes
 "Rush, Mr. Alfred George John",16.0,male,third,8.05,A/4. 20589,Southampton,0,0,no
 "Patchett, Mr. George",19.0,male,third,14.5,358585,Southampton,0,0,no
 "Garside, Miss. Ethel",34.0,female,second,13.0,243880,Southampton,0,0,yes
 "Silvey, Mrs. William Baird (Alice Munger)",39.0,female,first,55.9,13507,Southampton,1,0,yes
-"Caram, Mrs. Joseph (Maria Elias)",50.15360949,female,third,14.4583,2689,Cherbourg,1,0,no
+"Caram, Mrs. Joseph (Maria Elias)",50.2,female,third,14.4583,2689,Cherbourg,1,0,no
 "Jussila, Mr. Eiriik",32.0,male,third,7.925,STON/O 2. 3101286,Southampton,0,0,yes
 "Christy, Miss. Julie Rachel",25.0,female,second,30.0,237789,Southampton,1,1,yes
 "Thayer, Mrs. John Borland (Marian Longstreth Morris)",39.0,female,first,110.8833,17421,Cherbourg,1,1,yes
 "Downton, Mr. William James",54.0,male,second,26.0,28403,Southampton,0,0,no
 "Ross, Mr. John Hugo",36.0,male,first,40.125,13049,Cherbourg,0,0,no
-"Paulner, Mr. Uscher",36.6618675,male,third,8.7125,3411,Cherbourg,0,0,no
+"Paulner, Mr. Uscher",36.7,male,third,8.7125,3411,Cherbourg,0,0,no
 "Taussig, Miss. Ruth",18.0,female,first,79.65,110413,Southampton,0,2,yes
 "Jarvis, Mr. John Denzil",47.0,male,second,15.0,237565,Southampton,0,0,no
 "Frolicher-Stehli, Mr. Maxmillian",60.0,male,first,79.2,13567,Cherbourg,1,1,yes
 "Gilinski, Mr. Eliezer",22.0,male,third,8.05,14973,Southampton,0,0,no
-"Murdlin, Mr. Joseph",29.83593501,male,third,8.05,A./5. 3235,Southampton,0,0,no
+"Murdlin, Mr. Joseph",29.8,male,third,8.05,A./5. 3235,Southampton,0,0,no
 "Rintamaki, Mr. Matti",35.0,male,third,7.125,STON/O 2. 3101273,Southampton,0,0,no
 "Stephenson, Mrs. Walter Bertram (Martha Eustis)",52.0,female,first,78.2667,36947,Cherbourg,1,0,yes
 "Elsbury, Mr. William James",47.0,male,third,7.25,A/5 3902,Southampton,0,0,no
-"Bourke, Miss. Mary",18.63284763,female,third,7.75,364848,Queestown,0,2,no
+"Bourke, Miss. Mary",18.6,female,third,7.75,364848,Queestown,0,2,no
 "Chapman, Mr. John Henry",37.0,male,second,26.0,SC/AH 29037,Southampton,1,0,no
 "Van Impe, Mr. Jean Baptiste",36.0,male,third,24.15,345773,Southampton,1,1,no
-"Leitch, Miss. Jessie Wills",68.89769054,female,second,33.0,248727,Southampton,0,0,yes
+"Leitch, Miss. Jessie Wills",68.9,female,second,33.0,248727,Southampton,0,0,yes
 "Johnson, Mr. Alfred",49.0,male,third,0.0,LINE,Southampton,0,0,no
-"Boulos, Mr. Hanna",65.45982414,male,third,7.225,2664,Cherbourg,0,0,no
+"Boulos, Mr. Hanna",65.5,male,third,7.225,2664,Cherbourg,0,0,no
 "Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")",49.0,male,first,56.9292,PC 17485,Cherbourg,1,0,yes
 "Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)",24.0,female,second,27.0,243847,Southampton,2,1,yes
-"Slabenoff, Mr. Petco",66.01895508,male,third,7.8958,349214,Southampton,0,0,no
-"Harrington, Mr. Charles H",57.74152344,male,first,42.4,113796,Southampton,0,0,no
+"Slabenoff, Mr. Petco",66.0,male,third,7.8958,349214,Southampton,0,0,no
+"Harrington, Mr. Charles H",57.7,male,first,42.4,113796,Southampton,0,0,no
 "Torber, Mr. Ernst William",44.0,male,third,8.05,364511,Southampton,0,0,no
 "Homer, Mr. Harry (""Mr E Haven"")",35.0,male,first,26.55,111426,Cherbourg,0,0,yes
 "Lindell, Mr. Edvard Bengtsson",36.0,male,third,15.55,349910,Southampton,1,0,no
@@ -610,9 +610,9 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)",22.0,female,second,41.5792,SC/Paris 2123,Cherbourg,1,2,yes
 "Shutes, Miss. Elizabeth W",40.0,female,first,153.4625,PC 17582,Southampton,0,0,yes
 "Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)",39.0,female,third,31.275,347082,Southampton,1,5,no
-"Jardin, Mr. Jose Neto",57.61205451,male,third,7.05,SOTON/O.Q. 3101305,Southampton,0,0,no
-"Murphy, Miss. Margaret Jane",55.45430852,female,third,15.5,367230,Queestown,1,0,yes
-"Horgan, Mr. John",12.84551707,male,third,7.75,370377,Queestown,0,0,no
+"Jardin, Mr. Jose Neto",57.6,male,third,7.05,SOTON/O.Q. 3101305,Southampton,0,0,no
+"Murphy, Miss. Margaret Jane",55.5,female,third,15.5,367230,Queestown,1,0,yes
+"Horgan, Mr. John",12.8,male,third,7.75,370377,Queestown,0,0,no
 "Brocklebank, Mr. William Alfred",35.0,male,third,8.05,364512,Southampton,0,0,no
 "Herman, Miss. Alice",24.0,female,second,65.0,220845,Southampton,1,2,yes
 "Danbom, Mr. Ernst Gilbert",34.0,male,third,14.4,347080,Southampton,1,1,no
@@ -628,34 +628,34 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Kirkland, Rev. Charles Leonard",57.0,male,second,12.35,219533,Queestown,0,0,no
 "Longley, Miss. Gretchen Fiske",21.0,female,first,77.9583,13502,Southampton,0,0,yes
 "Bostandyeff, Mr. Guentcho",26.0,male,third,7.8958,349224,Southampton,0,0,no
-"O'Connell, Mr. Patrick D",43.3619279,male,third,7.7333,334912,Queestown,0,0,no
+"O'Connell, Mr. Patrick D",43.4,male,third,7.7333,334912,Queestown,0,0,no
 "Barkworth, Mr. Algernon Henry Wilson",80.0,male,first,30.0,27042,Southampton,0,0,yes
 "Lundahl, Mr. Johan Svensson",51.0,male,third,7.0542,347743,Southampton,0,0,no
 "Stahelin-Maeglin, Dr. Max",32.0,male,first,30.5,13214,Cherbourg,0,0,yes
-"Parr, Mr. William Henry Marsh",20.66171068,male,first,0.0,112052,Southampton,0,0,no
+"Parr, Mr. William Henry Marsh",20.7,male,first,0.0,112052,Southampton,0,0,no
 "Skoog, Miss. Mabel",9.0,female,third,27.9,347088,Southampton,3,2,no
 "Davis, Miss. Mary",28.0,female,second,13.0,237668,Southampton,0,0,yes
 "Leinonen, Mr. Antti Gustaf",32.0,male,third,7.925,STON/O 2. 3101292,Southampton,0,0,no
 "Collyer, Mr. Harvey",31.0,male,second,26.25,C.A. 31921,Southampton,1,1,no
 "Panula, Mrs. Juha (Maria Emilia Ojala)",41.0,female,third,39.6875,3101295,Southampton,0,5,no
-"Thorneycroft, Mr. Percival",28.35221179,male,third,16.1,376564,Southampton,1,0,no
+"Thorneycroft, Mr. Percival",28.4,male,third,16.1,376564,Southampton,1,0,no
 "Jensen, Mr. Hans Peder",20.0,male,third,7.8542,350050,Southampton,0,0,no
 "Sagesser, Mlle. Emma",24.0,female,first,69.3,PC 17477,Cherbourg,0,0,yes
 "Skoog, Miss. Margit Elizabeth",2.0,female,third,27.9,347088,Southampton,3,2,no
-"Foo, Mr. Choong",47.16580338,male,third,56.4958,1601,Southampton,0,0,yes
+"Foo, Mr. Choong",47.2,male,third,56.4958,1601,Southampton,0,0,yes
 "Baclini, Miss. Eugenie",0.75,female,third,19.2583,2666,Cherbourg,2,1,yes
 "Harper, Mr. Henry Sleeper",48.0,male,first,76.7292,PC 17572,Cherbourg,1,0,yes
 "Cor, Mr. Liudevit",19.0,male,third,7.8958,349231,Southampton,0,0,no
 "Simonius-Blumer, Col. Oberst Alfons",56.0,male,first,35.5,13213,Cherbourg,0,0,yes
-"Willey, Mr. Edward",35.48411795,male,third,7.55,S.O./P.P. 751,Southampton,0,0,no
+"Willey, Mr. Edward",35.5,male,third,7.55,S.O./P.P. 751,Southampton,0,0,no
 "Stanley, Miss. Amy Zillah Elsie",23.0,female,third,7.55,CA. 2314,Southampton,0,0,yes
-"Mitkoff, Mr. Mito",10.72288254,male,third,7.8958,349221,Southampton,0,0,no
+"Mitkoff, Mr. Mito",10.7,male,third,7.8958,349221,Southampton,0,0,no
 "Doling, Miss. Elsie",18.0,female,second,23.0,231919,Southampton,0,1,yes
 "Kalvik, Mr. Johannes Halvorsen",21.0,male,third,8.4333,8475,Southampton,0,0,no
-"O'Leary, Miss. Hanora ""Norah""",56.36542421,female,third,7.8292,330919,Queestown,0,0,yes
+"O'Leary, Miss. Hanora ""Norah""",56.4,female,third,7.8292,330919,Queestown,0,0,yes
 "Hegarty, Miss. Hanora ""Nora""",18.0,female,third,6.75,365226,Queestown,0,0,no
 "Hickman, Mr. Leonard Mark",24.0,male,second,73.5,S.O.C. 14879,Southampton,2,0,no
-"Radeff, Mr. Alexander",9.78340453,male,third,7.8958,349223,Southampton,0,0,no
+"Radeff, Mr. Alexander",9.8,male,third,7.8958,349223,Southampton,0,0,no
 "Bourke, Mrs. John (Catherine)",32.0,female,third,15.5,364849,Queestown,1,1,no
 "Eitemiller, Mr. George Floyd",23.0,male,second,13.0,29751,Southampton,0,0,no
 "Newell, Mr. Arthur Webster",58.0,male,first,113.275,35273,Cherbourg,0,2,no
@@ -666,20 +666,20 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Lindqvist, Mr. Eino William",20.0,male,third,7.925,STON/O 2. 3101285,Southampton,1,0,yes
 "Hickman, Mr. Lewis",32.0,male,second,73.5,S.O.C. 14879,Southampton,2,0,no
 "Butler, Mr. Reginald Fenton",25.0,male,second,13.0,234686,Southampton,0,0,no
-"Rommetvedt, Mr. Knud Paust",66.84079431,male,third,7.775,312993,Southampton,0,0,no
+"Rommetvedt, Mr. Knud Paust",66.8,male,third,7.775,312993,Southampton,0,0,no
 "Cook, Mr. Jacob",43.0,male,third,8.05,A/5 3536,Southampton,0,0,no
-"Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",36.83831179,female,first,52.0,19996,Southampton,1,0,yes
+"Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",36.8,female,first,52.0,19996,Southampton,1,0,yes
 "Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",40.0,female,second,39.0,29750,Southampton,1,1,yes
 "Davidson, Mr. Thornton",31.0,male,first,52.0,F.C. 12750,Southampton,1,0,no
 "Mitchell, Mr. Henry Michael",70.0,male,second,10.5,C.A. 24580,Southampton,0,0,no
 "Wilhelms, Mr. Charles",31.0,male,second,13.0,244270,Southampton,0,0,yes
-"Watson, Mr. Ennis Hastings",4.03227386,male,second,0.0,239856,Southampton,0,0,no
+"Watson, Mr. Ennis Hastings",4.0,male,second,0.0,239856,Southampton,0,0,no
 "Edvardsson, Mr. Gustaf Hjalmar",18.0,male,third,7.775,349912,Southampton,0,0,no
 "Sawyer, Mr. Frederick Charles",24.5,male,third,8.05,342826,Southampton,0,0,no
 "Turja, Miss. Anna Sofia",18.0,female,third,9.8417,4138,Southampton,0,0,yes
 "Goodwin, Mrs. Frederick (Augusta Tyler)",43.0,female,third,46.9,CA 2144,Southampton,1,6,no
 "Cardeza, Mr. Thomas Drake Martinez",36.0,male,first,512.3292,PC 17755,Cherbourg,0,1,yes
-"Peters, Miss. Katie",27.73853637,female,third,8.1375,330935,Queestown,0,0,no
+"Peters, Miss. Katie",27.7,female,third,8.1375,330935,Queestown,0,0,no
 "Hassab, Mr. Hammad",27.0,male,first,76.7292,PC 17572,Cherbourg,0,0,yes
 "Olsvigen, Mr. Thor Anderson",20.0,male,third,9.225,6563,Southampton,0,0,no
 "Goodwin, Mr. Charles Edward",14.0,male,third,46.9,CA 2144,Southampton,5,2,no
@@ -691,12 +691,12 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Madill, Miss. Georgette Alexandra",15.0,female,first,211.3375,24160,Southampton,0,1,yes
 "Dick, Mr. Albert Adrian",31.0,male,first,57.0,17474,Southampton,1,0,yes
 "Karun, Miss. Manca",4.0,female,third,13.4167,349256,Cherbourg,0,1,yes
-"Lam, Mr. Ali",62.18638439,male,third,56.4958,1601,Southampton,0,0,yes
+"Lam, Mr. Ali",62.2,male,third,56.4958,1601,Southampton,0,0,yes
 "Saad, Mr. Khalil",25.0,male,third,7.225,2672,Cherbourg,0,0,no
 "Weir, Col. John",60.0,male,first,26.55,113800,Southampton,0,0,no
 "Chapman, Mr. Charles Henry",52.0,male,second,13.5,248731,Southampton,0,0,no
 "Kelly, Mr. James",44.0,male,third,8.05,363592,Southampton,0,0,no
-"Mullens, Miss. Katherine ""Katie""",79.98017521,female,third,7.7333,35852,Queestown,0,0,yes
+"Mullens, Miss. Katherine ""Katie""",80.0,female,third,7.7333,35852,Queestown,0,0,yes
 "Thayer, Mr. John Borland",49.0,male,first,110.8833,17421,Cherbourg,1,1,no
 "Humblen, Mr. Adolf Mathias Nicolai Olsen",42.0,male,third,7.65,348121,Southampton,0,0,no
 "Astor, Mrs. John Jacob (Madeleine Talmadge Force)",18.0,female,first,227.525,PC 17757,Cherbourg,1,0,yes
@@ -708,16 +708,16 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Kelly, Mrs. Florence ""Fannie""",45.0,female,second,13.5,223596,Southampton,0,0,yes
 "Calderhead, Mr. Edward Pennington",42.0,male,first,26.2875,PC 17476,Southampton,0,0,yes
 "Cleaver, Miss. Alice",22.0,female,first,151.55,113781,Southampton,0,0,yes
-"Moubarek, Master. Halim Gonios (""William George"")",78.12216046,male,third,15.2458,2661,Cherbourg,1,1,yes
+"Moubarek, Master. Halim Gonios (""William George"")",78.1,male,third,15.2458,2661,Cherbourg,1,1,yes
 "Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")",24.0,female,first,49.5042,PC 17482,Cherbourg,0,0,yes
-"Klaber, Mr. Herman",11.16849522,male,first,26.55,113028,Southampton,0,0,no
+"Klaber, Mr. Herman",11.2,male,first,26.55,113028,Southampton,0,0,no
 "Taylor, Mr. Elmer Zebley",48.0,male,first,52.0,19996,Southampton,1,0,yes
 "Larsson, Mr. August Viktor",29.0,male,third,9.4833,7545,Southampton,0,0,no
 "Greenberg, Mr. Samuel",52.0,male,second,13.0,250647,Southampton,0,0,no
 "Soholt, Mr. Peter Andreas Lauritz Andersen",19.0,male,third,7.65,348124,Southampton,0,0,no
 "Endres, Miss. Caroline Louise",38.0,female,first,227.525,PC 17757,Cherbourg,0,0,yes
 "Troutt, Miss. Edwina Celia ""Winnie""",27.0,female,second,10.5,34218,Southampton,0,0,yes
-"McEvoy, Mr. Michael",32.63622032,male,third,15.5,36568,Queestown,0,0,no
+"McEvoy, Mr. Michael",32.6,male,third,15.5,36568,Queestown,0,0,no
 "Johnson, Mr. Malkolm Joackim",33.0,male,third,7.775,347062,Southampton,0,0,no
 "Harper, Miss. Annie Jessie ""Nina""",6.0,female,second,33.0,248727,Southampton,0,1,yes
 "Jensen, Mr. Svend Lauritz",17.0,male,third,7.0542,350048,Southampton,1,0,no
@@ -726,20 +726,20 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Chambers, Mr. Norman Campbell",27.0,male,first,53.1,113806,Southampton,1,0,yes
 "Oreskovic, Mr. Luka",20.0,male,third,8.6625,315094,Southampton,0,0,no
 "Renouf, Mrs. Peter Henry (Lillian Jefferys)",30.0,female,second,21.0,31027,Southampton,3,0,yes
-"Mannion, Miss. Margareth",14.58262641,female,third,7.7375,36866,Queestown,0,0,yes
+"Mannion, Miss. Margareth",14.6,female,third,7.7375,36866,Queestown,0,0,yes
 "Bryhl, Mr. Kurt Arnold Gottfrid",25.0,male,second,26.0,236853,Southampton,1,0,no
 "Ilmakangas, Miss. Pieta Sofia",25.0,female,third,7.925,STON/O2. 3101271,Southampton,1,0,no
 "Allen, Miss. Elisabeth Walton",29.0,female,first,211.3375,24160,Southampton,0,0,yes
 "Hassan, Mr. Houssein G N",11.0,male,third,18.7875,2699,Cherbourg,0,0,no
-"Knight, Mr. Robert J",32.56117493,male,second,0.0,239855,Southampton,0,0,no
+"Knight, Mr. Robert J",32.6,male,second,0.0,239855,Southampton,0,0,no
 "Berriman, Mr. William John",23.0,male,second,13.0,28425,Southampton,0,0,no
 "Troupiansky, Mr. Moses Aaron",23.0,male,second,13.0,233639,Southampton,0,0,no
 "Williams, Mr. Leslie",28.5,male,third,16.1,54636,Southampton,0,0,no
 "Ford, Mrs. Edward (Margaret Ann Watson)",48.0,female,third,34.375,W./C. 6608,Southampton,1,3,no
 "Lesurer, Mr. Gustave J",35.0,male,first,512.3292,PC 17755,Cherbourg,0,0,yes
-"Ivanoff, Mr. Kanio",42.16151503,male,third,7.8958,349201,Southampton,0,0,no
-"Nankoff, Mr. Minko",59.14912867,male,third,7.8958,349218,Southampton,0,0,no
-"Hawksford, Mr. Walter James",4.75910659,male,first,30.0,16988,Southampton,0,0,yes
+"Ivanoff, Mr. Kanio",42.2,male,third,7.8958,349201,Southampton,0,0,no
+"Nankoff, Mr. Minko",59.1,male,third,7.8958,349218,Southampton,0,0,no
+"Hawksford, Mr. Walter James",4.8,male,first,30.0,16988,Southampton,0,0,yes
 "Cavendish, Mr. Tyrell William",36.0,male,first,78.85,19877,Southampton,1,0,no
 "Ryerson, Miss. Susan Parker ""Suzette""",21.0,female,first,262.375,PC 17608,Cherbourg,2,2,yes
 "McNamee, Mr. Neal",24.0,male,third,16.1,376566,Southampton,1,0,no
@@ -759,40 +759,40 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Bailey, Mr. Percy Andrew",18.0,male,second,11.5,29108,Southampton,0,0,no
 "Theobald, Mr. Thomas Leonard",34.0,male,third,8.05,363294,Southampton,0,0,no
 "Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)",33.0,female,first,86.5,110152,Southampton,0,0,yes
-"Garfirth, Mr. John",51.67200825,male,third,14.5,358585,Southampton,0,0,no
+"Garfirth, Mr. John",51.7,male,third,14.5,358585,Southampton,0,0,no
 "Nirva, Mr. Iisakki Antino Aijo",41.0,male,third,7.125,SOTON/O2 3101272,Southampton,0,0,no
 "Barah, Mr. Hanna Assi",20.0,male,third,7.2292,2663,Cherbourg,0,0,yes
 "Carter, Mrs. William Ernest (Lucile Polk)",36.0,female,first,120.0,113760,Southampton,1,2,yes
 "Eklund, Mr. Hans Linus",16.0,male,third,7.775,347074,Southampton,0,0,no
 "Hogeboom, Mrs. John C (Anna Andrews)",51.0,female,first,77.9583,13502,Southampton,1,0,yes
-"Brewe, Dr. Arthur Jackson",21.74230813,male,first,39.6,112379,Cherbourg,0,0,no
+"Brewe, Dr. Arthur Jackson",21.7,male,first,39.6,112379,Cherbourg,0,0,no
 "Mangan, Miss. Mary",30.5,female,third,7.75,364850,Queestown,0,0,no
-"Moran, Mr. Daniel J",57.0004401,male,third,24.15,371110,Queestown,1,0,no
+"Moran, Mr. Daniel J",57.0,male,third,24.15,371110,Queestown,1,0,no
 "Gronnestad, Mr. Daniel Danielsen",32.0,male,third,8.3625,8471,Southampton,0,0,no
 "Lievens, Mr. Rene Aime",24.0,male,third,9.5,345781,Southampton,0,0,no
 "Jensen, Mr. Niels Peder",48.0,male,third,7.8542,350047,Southampton,0,0,no
 "Mack, Mrs. (Mary)",57.0,female,second,10.5,S.O./P.P. 3,Southampton,0,0,no
-"Elias, Mr. Dibo",2.45499948,male,third,7.225,2674,Cherbourg,0,0,no
+"Elias, Mr. Dibo",2.5,male,third,7.225,2674,Cherbourg,0,0,no
 "Hocking, Mrs. Elizabeth (Eliza Needs)",54.0,female,second,23.0,29105,Southampton,1,3,yes
 "Myhrman, Mr. Pehr Fabian Oliver Malkolm",18.0,male,third,7.75,347078,Southampton,0,0,no
-"Tobin, Mr. Roger",19.3833269,male,third,7.75,383121,Queestown,0,0,no
+"Tobin, Mr. Roger",19.4,male,third,7.75,383121,Queestown,0,0,no
 "Emanuel, Miss. Virginia Ethel",5.0,female,third,12.475,364516,Southampton,0,0,yes
-"Kilgannon, Mr. Thomas J",2.36740462,male,third,7.7375,36865,Queestown,0,0,no
+"Kilgannon, Mr. Thomas J",2.4,male,third,7.7375,36865,Queestown,0,0,no
 "Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",43.0,female,first,211.3375,24160,Southampton,0,1,yes
 "Ayoub, Miss. Banoura",13.0,female,third,7.2292,2687,Cherbourg,0,0,yes
 "Dick, Mrs. Albert Adrian (Vera Gillespie)",17.0,female,first,57.0,17474,Southampton,1,0,yes
 "Long, Mr. Milton Clyde",29.0,male,first,30.0,113501,Southampton,0,0,no
-"Johnston, Mr. Andrew G",8.12756607,male,third,23.45,W./C. 6607,Southampton,1,2,no
+"Johnston, Mr. Andrew G",8.1,male,third,23.45,W./C. 6607,Southampton,1,2,no
 "Ali, Mr. William",25.0,male,third,7.05,SOTON/O.Q. 3101312,Southampton,0,0,no
 "Harmer, Mr. Abraham (David Lishin)",25.0,male,third,7.25,374887,Southampton,0,0,no
 "Sjoblom, Miss. Anna Sofia",18.0,female,third,7.4958,3101265,Southampton,0,0,yes
 "Rice, Master. George Hugh",8.0,male,third,29.125,382652,Queestown,4,1,no
 "Dean, Master. Bertram Vere",1.0,male,third,20.575,C.A. 2315,Southampton,1,2,yes
 "Guggenheim, Mr. Benjamin",46.0,male,first,79.2,PC 17593,Cherbourg,0,0,no
-"Keane, Mr. Andrew ""Andy""",44.01963051,male,third,7.75,12460,Queestown,0,0,no
+"Keane, Mr. Andrew ""Andy""",44.0,male,third,7.75,12460,Queestown,0,0,no
 "Gaskell, Mr. Alfred",16.0,male,second,26.0,239865,Southampton,0,0,no
-"Sage, Miss. Stella Anna",37.6868932,female,third,69.55,CA. 2343,Southampton,8,2,no
-"Hoyt, Mr. William Fisher",0.44974649,male,first,30.6958,PC 17600,Cherbourg,0,0,no
+"Sage, Miss. Stella Anna",37.7,female,third,69.55,CA. 2343,Southampton,8,2,no
+"Hoyt, Mr. William Fisher",0.4,male,first,30.6958,PC 17600,Cherbourg,0,0,no
 "Dantcheff, Mr. Ristiu",25.0,male,third,7.8958,349203,Southampton,0,0,no
 "Otter, Mr. Richard",39.0,male,second,13.0,28213,Southampton,0,0,no
 "Leader, Dr. Alice (Farnham)",49.0,female,first,25.9292,17465,Southampton,0,0,yes
@@ -814,7 +814,7 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Slemen, Mr. Richard James",35.0,male,second,10.5,28206,Southampton,0,0,no
 "Andersson, Miss. Ebba Iris Alfrida",6.0,female,third,31.275,347082,Southampton,4,2,no
 "Tomlin, Mr. Ernest Portage",30.5,male,third,8.05,364499,Southampton,0,0,no
-"Fry, Mr. Richard",19.80264642,male,first,0.0,112058,Southampton,0,0,no
+"Fry, Mr. Richard",19.8,male,first,0.0,112058,Southampton,0,0,no
 "Heininen, Miss. Wendla Maria",23.0,female,third,7.925,STON/O2. 3101290,Southampton,0,0,no
 "Mallet, Mr. Albert",31.0,male,second,37.0042,S.C./PARIS 2079,Cherbourg,1,1,no
 "Holm, Mr. John Fredrik Alexander",43.0,male,third,6.45,C 7075,Southampton,0,0,no
@@ -824,31 +824,31 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Reuchlin, Jonkheer. John George",38.0,male,first,0.0,19972,Southampton,0,0,no
 "Moor, Mrs. (Beila)",27.0,female,third,12.475,392096,Southampton,0,1,yes
 "Panula, Master. Urho Abraham",2.0,male,third,39.6875,3101295,Southampton,4,1,no
-"Flynn, Mr. John",46.45770521,male,third,6.95,368323,Queestown,0,0,no
-"Lam, Mr. Len",17.25289881,male,third,56.4958,1601,Southampton,0,0,no
+"Flynn, Mr. John",46.5,male,third,6.95,368323,Queestown,0,0,no
+"Lam, Mr. Len",17.3,male,third,56.4958,1601,Southampton,0,0,no
 "Mallet, Master. Andre",1.0,male,second,37.0042,S.C./PARIS 2079,Cherbourg,0,2,yes
-"McCormack, Mr. Thomas Joseph",26.72635083,male,third,7.75,367228,Queestown,0,0,yes
+"McCormack, Mr. Thomas Joseph",26.7,male,third,7.75,367228,Queestown,0,0,yes
 "Stone, Mrs. George Nelson (Martha Evelyn)",62.0,female,first,80.0,113572,not_provided,0,0,yes
 "Yasbeck, Mrs. Antoni (Selini Alexander)",15.0,female,third,14.4542,2659,Cherbourg,1,0,yes
 "Richards, Master. George Sibley",0.83,male,second,18.75,29106,Southampton,1,1,yes
-"Saad, Mr. Amin",44.45051282,male,third,7.2292,2671,Cherbourg,0,0,no
+"Saad, Mr. Amin",44.5,male,third,7.2292,2671,Cherbourg,0,0,no
 "Augustsson, Mr. Albert",23.0,male,third,7.8542,347468,Southampton,0,0,no
 "Allum, Mr. Owen George",18.0,male,third,8.3,2223,Southampton,0,0,no
 "Compton, Miss. Sara Rebecca",39.0,female,first,83.1583,PC 17756,Cherbourg,1,1,yes
 "Pasic, Mr. Jakob",21.0,male,third,8.6625,315097,Southampton,0,0,no
-"Sirota, Mr. Maurice",52.34606051,male,third,8.05,392092,Southampton,0,0,no
+"Sirota, Mr. Maurice",52.3,male,third,8.05,392092,Southampton,0,0,no
 "Chip, Mr. Chang",32.0,male,third,56.4958,1601,Southampton,0,0,yes
-"Marechal, Mr. Pierre",68.52679216,male,first,29.7,11774,Cherbourg,0,0,yes
+"Marechal, Mr. Pierre",68.5,male,first,29.7,11774,Cherbourg,0,0,yes
 "Alhomaki, Mr. Ilmari Rudolf",20.0,male,third,7.925,SOTON/O2 3101287,Southampton,0,0,no
 "Mudd, Mr. Thomas Charles",16.0,male,second,10.5,S.O./P.P. 3,Southampton,0,0,no
 "Serepeca, Miss. Augusta",30.0,female,first,31.0,113798,Cherbourg,0,0,yes
 "Lemberopolous, Mr. Peter L",34.5,male,third,6.4375,2683,Cherbourg,0,0,no
 "Culumovic, Mr. Jeso",17.0,male,third,8.6625,315090,Southampton,0,0,no
 "Abbing, Mr. Anthony",42.0,male,third,7.55,C.A. 5547,Southampton,0,0,no
-"Sage, Mr. Douglas Bullen",54.44085061,male,third,69.55,CA. 2343,Southampton,8,2,no
+"Sage, Mr. Douglas Bullen",54.4,male,third,69.55,CA. 2343,Southampton,8,2,no
 "Markoff, Mr. Marin",35.0,male,third,7.8958,349213,Cherbourg,0,0,no
 "Harper, Rev. John",28.0,male,second,33.0,248727,Southampton,0,1,no
-"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",49.86389433,female,first,89.1042,17453,Cherbourg,1,0,yes
+"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",49.9,female,first,89.1042,17453,Cherbourg,1,0,yes
 "Andersson, Master. Sigvard Harald Elias",4.0,male,third,31.275,347082,Southampton,4,2,no
 "Svensson, Mr. Johan",74.0,male,third,7.775,347060,Southampton,0,0,no
 "Boulos, Miss. Nourelain",9.0,female,third,15.2458,2678,Cherbourg,1,1,no
@@ -858,16 +858,16 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Wick, Mrs. George Dennick (Mary Hitchcock)",45.0,female,first,164.8667,36928,Southampton,1,1,yes
 "Daly, Mr. Peter Denis ",51.0,male,first,26.55,113055,Southampton,0,0,yes
 "Baclini, Mrs. Solomon (Latifa Qurban)",24.0,female,third,19.2583,2666,Cherbourg,0,3,yes
-"Razi, Mr. Raihed",37.36184953,male,third,7.2292,2629,Cherbourg,0,0,no
+"Razi, Mr. Raihed",37.4,male,third,7.2292,2629,Cherbourg,0,0,no
 "Hansen, Mr. Claus Peter",41.0,male,third,14.1083,350026,Southampton,2,0,no
 "Giles, Mr. Frederick Edward",21.0,male,second,11.5,28134,Southampton,1,0,no
 "Swift, Mrs. Frederick Joel (Margaret Welles Barron)",48.0,female,first,25.9292,17466,Southampton,0,0,yes
-"Sage, Miss. Dorothy Edith ""Dolly""",70.43390175,female,third,69.55,CA. 2343,Southampton,8,2,no
+"Sage, Miss. Dorothy Edith ""Dolly""",70.4,female,third,69.55,CA. 2343,Southampton,8,2,no
 "Gill, Mr. John William",24.0,male,second,13.0,233866,Southampton,0,0,no
 "Bystrom, Mrs. (Karolina)",42.0,female,second,13.0,236852,Southampton,0,0,yes
 "Duran y More, Miss. Asuncion",27.0,female,second,13.8583,SC/PARIS 2149,Cherbourg,1,0,yes
 "Roebling, Mr. Washington Augustus II",31.0,male,first,50.4958,PC 17590,Southampton,0,0,no
-"van Melkebeke, Mr. Philemon",20.90678597,male,third,9.5,345777,Southampton,0,0,no
+"van Melkebeke, Mr. Philemon",20.9,male,third,9.5,345777,Southampton,0,0,no
 "Johnson, Master. Harold Theodor",4.0,male,third,11.1333,347742,Southampton,1,1,yes
 "Balkic, Mr. Cerin",26.0,male,third,7.8958,349248,Southampton,0,0,no
 "Beckwith, Mrs. Richard Leonard (Sallie Monypeny)",47.0,female,first,52.5542,11751,Southampton,1,1,yes
@@ -877,7 +877,7 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Najib, Miss. Adele Kiamie ""Jane""",15.0,female,third,7.225,2667,Cherbourg,0,0,yes
 "Gustafsson, Mr. Alfred Ossian",20.0,male,third,9.8458,7534,Southampton,0,0,no
 "Petroff, Mr. Nedelio",19.0,male,third,7.8958,349212,Southampton,0,0,no
-"Laleff, Mr. Kristo",35.54738141,male,third,7.8958,349217,Southampton,0,0,no
+"Laleff, Mr. Kristo",35.5,male,third,7.8958,349217,Southampton,0,0,no
 "Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",56.0,female,first,83.1583,11767,Cherbourg,0,1,yes
 "Shelley, Mrs. William (Imanita Parrish Hall)",25.0,female,second,26.0,230433,Southampton,0,1,yes
 "Markun, Mr. Johann",33.0,male,third,7.8958,349257,Southampton,0,0,no
@@ -887,6 +887,6 @@ name,age,gender,ticket_class,fare,ticket_number,embarkation_city,siblings_or_spo
 "Rice, Mrs. William (Margaret Norton)",39.0,female,third,29.125,382652,Queestown,0,5,no
 "Montvila, Rev. Juozas",27.0,male,second,13.0,211536,Southampton,0,0,no
 "Graham, Miss. Margaret Edith",19.0,female,first,30.0,112053,Southampton,0,0,yes
-"Johnston, Miss. Catherine Helen ""Carrie""",31.0820056,female,third,23.45,W./C. 6607,Southampton,1,2,no
+"Johnston, Miss. Catherine Helen ""Carrie""",31.1,female,third,23.45,W./C. 6607,Southampton,1,2,no
 "Behr, Mr. Karl Howell",26.0,male,first,30.0,111369,Cherbourg,0,0,yes
 "Dooley, Mr. Patrick",32.0,male,third,7.75,370376,Queestown,0,0,no
