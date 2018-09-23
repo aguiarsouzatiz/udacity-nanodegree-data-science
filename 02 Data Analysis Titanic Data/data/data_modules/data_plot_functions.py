@@ -24,7 +24,7 @@ def plot_distribution_with_means(data_frame, ax=None, title=None):
     mean, median, mode = get_means_of(data_frame).values()
     format_2_decimals = lambda number: f'{float(number):.2f}'
     
-    distribution.set_title(title)
+    distribution.set_title(title.upper())
     distribution.axvline(mean, color='r', linestyle='-', label=f'mean {format_2_decimals(round(mean, 2))}')
     distribution.axvline(median, color='b', linestyle='--', label=f'median {format_2_decimals(round(median, 2))}')
     distribution.axvline(mode, color='g', linestyle='-.', label=f'mode {format_2_decimals(round(mode, 2))}')
