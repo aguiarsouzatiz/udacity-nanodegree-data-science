@@ -1,4 +1,5 @@
 import seaborn as sns
+import matplotlib.pyplot as plt
 
 def plot_distribution(data_frame, ax=None, color=None):
     '''
@@ -23,15 +24,24 @@ def plot_distribution_with_means(data_frame, ax=None, color=None, title=None):
     distribution = plot_distribution(data_frame, ax=ax, color=color)
     mean, median, mode = get_means_of(data_frame).values()
     format_2_decimals = lambda number: f'{float(number):.2f}'
-    
-    distribution.set_title(title.upper())
+
     distribution.axvline(mean, color='#000000', linestyle='-', label=f'mean {format_2_decimals(round(mean, 2))}')
-    distribution.axvline(median, color='#777777', linestyle='--', label=f'median {format_2_decimals(round(median, 2))}')
-    distribution.axvline(mode, color='#555555', linestyle=':', label=f'mode {format_2_decimals(round(mode, 2))}')
+    distribution.axvline(median, color='#555555', linestyle='--', label=f'median {format_2_decimals(round(median, 2))}')
+    distribution.axvline(mode, color='#777777', linestyle=':', label=f'mode {format_2_decimals(round(mode, 2))}')
     distribution.legend()
+    distribution.set_title(title.upper())
     
 def set_title(data_frame_plot, title):
     '''
     Sets a title to plot
     '''
-    data_frame_plot.set_title(title, fontdict={'fontsize':16, 'fontweight': 'bold', 'verticalalignment': 'bottom'})
+    data_frame_plot.set_title(title.upper(), fontdict={'verticalalignment': 'bottom'})
+
+def set_plot_by(rows, columns, figsize, sharex=None, sharey=None):
+    '''
+    Sets basic structure to show charts
+    '''
+    sharex, sharey = sharex if sharex else 'none', sharey if sharey else 'none'
+
+    figure, ax = plt.subplots(rows, columns, sharex=sharex, sharey=sharey, figsize=figsize)
+    figure.show()
