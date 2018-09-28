@@ -30,6 +30,8 @@ def plot_distribution_with_means(data_frame, ax=None, color=None, title=None):
     distribution.axvline(mode, color='#777777', linestyle=':', label=f'mode {format_2_decimals(round(mode, 2))}')
     distribution.legend()
     distribution.set_title(title.upper())
+
+    return distribution
     
 def set_title(data_frame_plot, title):
     '''
